@@ -1,0 +1,76 @@
+{
+  "variantId": "LIB_executive_variant",
+  "hullId": "LIB_executive",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 42,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "recovery_shuttles",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0008": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightdualmg",
+        "WS0010": "lightdualmg",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg",
+        "WS0013": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0015": "lightdualmg",
+        "WS0016": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "lightdualmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "pilum_large",
+        "WS0020": "pilum_large",
+        "WS0021": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "Lancer_wing",
+    "Lancer_wing",
+    "Oliver_wing",
+    "Oliver_wing",
+    "mcBomber_wing",
+    "mcBomber_wing"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "libertarian",
+    "name": "libertarian",
+    "author": "LordKhorne",
+    "version": ".01",
+    "description": " A hyper-liberterian faction for those with a love of freedom",
+    "gameVersion": "0.98a",
+    "dependencies": [],
+    "modPlugin":"data.scripts.LIB_ModPlugin"
+}

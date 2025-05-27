@@ -1,0 +1,16 @@
+{
+	"id":"LIB_triple_laser_cannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":90.0,
+	"width":15,
+	"fadeTime":0.3,
+	"fringeColor":[133,187,101,255],
+	"coreColor":[211,175,55,200],
+	"textureType":"SMOOTH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":1.0,
+}

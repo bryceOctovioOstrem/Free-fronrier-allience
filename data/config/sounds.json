@@ -1,0 +1,13 @@
+{
+ 
+		
+		"LIB_large_macron_shot":
+	[
+		{"file":"sounds/sfx_wpn_guns/LIB_large_macron_shot.ogg","pitch":1,"volume":.7},
+	],
+		"LIB_large_macron_chargeup":
+	[
+		{"file":"sounds/sfx_wpn_guns/LIB_large_macron_chargeup.ogg","pitch":1,"volume":.2},
+	]
+	
+}

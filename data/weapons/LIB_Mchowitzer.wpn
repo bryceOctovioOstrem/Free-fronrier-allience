@@ -1,0 +1,43 @@
+{
+  "id": "LIB_Mchowitzer",
+  "specClass": "projectile",
+  "projectileSpecId": "LIB_how_proj",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/LIB_mc_howitzer_turret.png",
+  "hardpointSprite": "graphics/weapons/LIB_mc_howitzer_hardpoint.png",
+  "turretOffsets": [
+    63.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    72.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 16,
+    "particleSizeRange": 18,
+    "cloudParticleCount": 8,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      155,
+      60,
+      50,
+      105
+    ]
+  },
+  "fireSoundTwo": "dragonfire_fire"
+}

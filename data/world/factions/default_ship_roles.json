@@ -1,0 +1,110 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{ # frigates
+	"LIB_hussar_variant":10,
+	"LIB_competitor_variant":10,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{ # FRIGATES AND DESTROYERS
+		"LIB_hussar_variant":10,
+		"LIB_Rothbard_variant":10,
+		"LIB_competitor_variant":10,
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{ # DESTROYERS and light cruisers
+	"LIB_Rothbard_variant":10,
+	"LIB_odin_variant":5,
+	"LIB_Mises_variant":10,
+	"LIB_Commandante_variant":7,
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{ # cruisers and small capitals
+	"LIB_kanaloa_variant":10,
+	"LIB_Commandante_variant":7,
+	"LIB_Mises_variant":10,
+	"LIB_Coustillier_variant":10,
+	"LIB_posidon_variant":10,
+	"LIB_cebeci_variant":10,
+	"LIB_olorin_variant":10,
+	"fallback":{"combatLarge":.5},
+	},
+	"combatCapital":{ # capitals
+		"LIB_aquinas_variant":10,
+		"LIB_ayn_rand_variant":10,
+		"LIB_tolkien_variant":10,
+		"LIB_olorin_variant":10,
+		"fallback":{"combatLarge":.5},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+		
+	},
+
+	# carriers
+	"carrierSmall":{
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5},
+	},
+	"carrierLarge":{
+		"LIB_executive_variant":10,
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	"freighterLarge":{
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+		"fallback":{"tankerSmall":0.5},
+	},
+	"tankerLarge":{		
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	"personnelSmall":{
+		"fallback":{"personnelMedium":0.5},
+		"fallback2":{"personnelLarge":0.25},
+	},
+	"personnelMedium":{
+		"fallback":{"personnelSmall":1},
+		"fallback2":{"personnelLarge":0.5},
+	},
+	"personnelLarge":{
+		"LIB_celestial_empress_variant":10,
+		"fallback":{"personnelMedium":1},
+		"fallback2":{"personnelSmall":1},
+	},
+}

@@ -1,0 +1,16 @@
+{
+  "variantId": "LIB_celestial_empress_variant",
+  "hullId": "LIB_celestial_empress",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine"
+  ],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

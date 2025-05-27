@@ -1,0 +1,176 @@
+{
+  "hullName": "LIB_cebeci",
+  "hullId": "LIB_cebeci",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/LIB_Rockwell_Class.png",
+  "style": "MIDLINE",
+  "height": 260,
+  "width": 203,
+  "center": [101.5, 130],
+  "collisionRadius": 130,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 132.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "coherer"
+  ],
+  "builtInWeapons": {
+    "WS0009": "pilum"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 50,
+      "locations": [57, 79.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 184,
+      "angle": -50.5,
+      "locations": [57, -80.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [70, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [22, 0.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-50, 79.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-50, -79.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [83, -35.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": 0,
+      "locations": [83, 35.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-72.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-95, 40.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-95, -41],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-94, -31.5],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-94, -50],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-95, 31.5],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-95, 50.5],
+      "length": 19,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    112, 59,
+    68.5, 62.5,
+    83, 21.5,
+    128.5, 0.5,
+    83, -21.5,
+    69.5, -62,
+    114, -58,
+    35, -97,
+    15, -45.5,
+    -27.5, -42,
+    -34.5, -97,
+    -90, -85,
+    -92.5, -18,
+    -128.5, 0.5,
+    -93, 21.5,
+    -91, 79,
+    -52, 102,
+    -25, 42.5,
+    22, 46,
+    49.5, 101
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "variantId": "LIB_odin_variant",
+  "hullId": "LIB_odin",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_gold_machine_gun",
+        "WS0003": "LIB_gold_machine_gun",
+        "WS0004": "LIB_gold_machine_gun",
+        "WS0007": "LIB_gold_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "breachpod",
+        "WS0008": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "mjolnir"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "LIB_gold_machine_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

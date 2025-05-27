@@ -1,0 +1,61 @@
+{
+  "id": "LIB_triple_laser_cannon_weapon",
+  "specClass": "projectile",
+  "projectileSpecId": "LIB_triple_laser_cannon_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/LIB_tri_laser_cannon_turret.png",
+  "hardpointSprite": "graphics/weapons/LIB_tri_laser_cannon_hardpoint.png",
+  "turretGlowSprite":"graphics/weapons/LIB_tri_laser_cannon_turret_glow.png",
+  "hardpointGlowSprite":"graphics/weapons/LIB_tri_laser_cannon_hardpoint_glow.png",
+  "glowColor": [
+    218,
+    41,
+    28,
+    200
+  ],
+  "turretOffsets": [
+    39,
+    0.5,
+    34.5,
+    12.5,
+    34.5,
+    -11.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    51,
+    0,
+    46.5,
+    -10,
+    46,
+    10
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      211,
+      175,
+      55,
+      255
+    ]
+  },
+  "fireSoundTwo": "thermal_pulse_cannon_fire"
+}

@@ -1,0 +1,49 @@
+{
+  "variantId": "LIB_squire_variant",
+  "hullId": "LIB_squire",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "hiressensors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pulselaser",
+        "WS0002": "pulselaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_duel_laser_cannon_weapon",
+        "WS0006": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LIB_single_laser_cannon_weapon",
+        "WS0008": "LIB_single_laser_cannon_weapon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

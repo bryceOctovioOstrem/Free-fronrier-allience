@@ -1,0 +1,82 @@
+{
+  "variantId": "LIB_ayn_rand_variant",
+  "hullId": "LIB_ayn_rand",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "fluxbreakers",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_triple_laser_cannon_weapon",
+        "WS0002": "LIB_triple_laser_cannon_weapon",
+        "WS0003": "LIB_triple_laser_cannon_weapon",
+        "WS0004": "LIB_triple_laser_cannon_weapon",
+        "WS0016": "LIB_single_laser_cannon_weapon",
+        "WS0018": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_triple_laser_cannon_weapon",
+        "WS0006": "LIB_triple_laser_cannon_weapon",
+        "WS0007": "LIB_triple_laser_cannon_weapon",
+        "WS0008": "LIB_triple_laser_cannon_weapon",
+        "WS0017": "LIB_single_laser_cannon_weapon",
+        "WS0019": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0020": "LIB_MC_nukes_single",
+        "WS0021": "LIB_MC_nukes_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "vulcan",
+        "WS0015": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "locust"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

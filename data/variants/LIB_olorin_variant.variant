@@ -1,0 +1,73 @@
+{
+  "variantId": "LIB_olorin_variant",
+  "hullId": "LIB_olorin",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 46,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "gravitonbeam",
+        "WS0011": "gravitonbeam",
+        "WS0012": "gravitonbeam",
+        "WS0013": "gravitonbeam",
+        "WS0014": "ionbeam",
+        "WS0015": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0005": "LIB_gold_machine_gun",
+        "WS0007": "LIB_gold_machine_gun",
+        "WS0008": "LIB_gold_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_MC_nuke_medium",
+        "WS0002": "LIB_MC_nuke_medium",
+        "WS0004": "LIB_MC_nuke_medium",
+        "WS0006": "LIB_MC_nukes_single",
+        "WS0009": "LIB_LARGE_McMacron"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "Oliver_wing",
+    "mcBomber_wing"
+  ]
+}

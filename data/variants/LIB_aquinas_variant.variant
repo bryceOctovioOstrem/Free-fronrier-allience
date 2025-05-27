@@ -1,0 +1,79 @@
+{
+  "variantId": "LIB_aquinas_variant",
+  "hullId": "LIB_aquinas",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_triple_laser_cannon_weapon",
+        "WS0002": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_triple_laser_cannon_weapon",
+        "WS0006": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "guardian",
+        "WS0004": "guardian",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "locust",
+        "WS0008": "locust",
+        "WS0019": "breach",
+        "WS0020": "breach",
+        "WS0021": "locust",
+        "WS0022": "LIB_Mchowitzer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0013": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "lrpdlaser",
+        "WS0012": "lrpdlaser",
+        "WS0014": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "LIB_duel_laser_cannon_weapon",
+        "WS0018": "LIB_duel_laser_cannon_weapon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "LIB_heavy_machine_gun_fighter",
+  "hullId": "LIB_Herrera",
+  "displayName": "Herrera",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_gold_machine_gun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

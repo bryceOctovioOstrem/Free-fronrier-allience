@@ -1,0 +1,133 @@
+{
+  "hullName": "LIB_squire",
+  "hullId": "LIB_squire",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/LIB_squire.png",
+  "style": "MIDLINE",
+  "height": 197,
+  "width": 159,
+  "center": [79.5, 98.5],
+  "collisionRadius": 98.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "escort_package"
+  ],
+  "builtInWeapons": {
+    "WS0001": "irautolance",
+    "WS0002": "irautolance"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [65.5, 49.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [66.5, -48.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": -89,
+      "locations": [16.5, -45.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 330,
+      "angle": 0,
+      "locations": [32.5, 1.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 90,
+      "locations": [17.5, 49.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -58.5,
+      "locations": [38.5, -47.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 58.5,
+      "locations": [37.5, 49.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, 34.5],
+      "length": 19.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-66.5, 18.5],
+      "length": 23.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-67, -15.5],
+      "length": 23.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60.5, -31],
+      "length": 19.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    92.5, 1.5,
+    66, 28.5,
+    50, 29.5,
+    16, 78.5,
+    -80, 1,
+    18, -77,
+    50, -28,
+    66.5, -27.5
+  ]
+}

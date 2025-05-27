@@ -1,0 +1,85 @@
+{
+  "variantId": "LIB_tolkien_variant",
+  "hullId": "LIB_tolkien",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "advancedoptics",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gravitonbeam",
+        "WS0004": "gravitonbeam",
+        "WS0005": "ionbeam",
+        "WS0006": "ionbeam",
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam",
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam",
+        "WS0011": "gravitonbeam",
+        "WS0012": "gravitonbeam",
+        "WS0013": "ionbeam",
+        "WS0014": "ionbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyburst",
+        "WS0002": "heavyburst",
+        "WS0017": "LIB_gold_machine_gun",
+        "WS0018": "pdburst",
+        "WS0019": "pdburst",
+        "WS0020": "pdburst",
+        "WS0021": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "heavyburst",
+        "WS0016": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "LIB_MC_nukes_single",
+        "WS0023": "LIB_MC_nukes_single",
+        "WS0024": "LIB_MC_nuke_medium",
+        "WS0025": "LIB_MC_nuke_medium",
+        "WS0026": "LIB_MC_nukes_single",
+        "WS0027": "LIB_MC_nukes_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

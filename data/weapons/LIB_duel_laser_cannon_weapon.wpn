@@ -1,0 +1,55 @@
+{
+  "id": "LIB_duel_laser_cannon_weapon",
+  "specClass": "projectile",
+  "projectileSpecId": "LIB_duel_laser_cannon_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/LIB_duel_laser_cannon_turret.png",
+  "hardpointSprite": "graphics/weapons/LIB_duel_laser_cannon_hardpoint.png",
+  "turretGlowSprite":"graphics/weapons/LIB_duel_laser_cannon_turret_glow.png",
+  "hardpointGlowSprite":"graphics/weapons/LIB_duel_laser_cannon_hardpoint_glow.png",
+  "glowColor": [
+    255,
+    207,
+    64,
+    255
+  ],
+  "turretOffsets": [
+    23.5,
+    4,
+    23.5,
+    -4
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    26,
+    4,
+    26,
+    -4
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      211,
+      175,
+      55,
+      255
+    ]
+  },
+  "fireSoundTwo": "pulse_laser_fire"
+}

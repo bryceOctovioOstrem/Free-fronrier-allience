@@ -1,0 +1,49 @@
+{
+  "id": "LIB_gold_machine_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "heavymg_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/LIB_gold_machine_gun.png",
+  "turretGunSprite": "graphics/weapons/LIB_gold_machine_gun_recoil.png",
+  "hardpointSprite": "graphics/weapons/LIB_gold_machine_gun_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/LIB_gold_machine_gun_recoil_hardpoint.png",
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    25,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      120,
+      105,
+      250
+    ]
+  },
+  "fireSoundTwo": "heavy_machinegun_fire"
+}

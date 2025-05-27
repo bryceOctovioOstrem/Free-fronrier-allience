@@ -1,0 +1,28 @@
+{
+	"id":"LIB_macron_small",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/weapons/LIB_small_macron_turret.png",
+	"turretGunSprite":"graphics/weapons/LIB_small_macron_turret_barrel.png",
+	"hardpointSprite":"graphics/weapons/LIB_small_macron_hardpoint.png",
+	"hardpointGunSprite":"graphics/weapons/LIB_small_macron_hardpoint_barrel.png",	
+	"visualRecoil":20.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":16.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.4,
+					   "particleCount":12,
+					  "particleColor":[255,199,44,255]},
+	"projectileSpecId":"LIB_macron_small_shot",  # projectile that will be fired
+	"fireSoundTwo":"light_mortar_fire",	
+}

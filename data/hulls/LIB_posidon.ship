@@ -1,0 +1,186 @@
+{
+  "hullName": "LIB_posidon",
+  "hullId": "LIB_posidon",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/LIB_posidon.png",
+  "style": "HIGH_TECH",
+  "height": 194,
+  "width": 290,
+  "center": [145, 97],
+  "collisionRadius": 145,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 153.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": 38.5,
+      "locations": [46, 36]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": -38.5,
+      "locations": [46, -36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 90,
+      "locations": [0, 95]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -90,
+      "locations": [0, -95]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [0, 126]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [0, -126]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": 149,
+      "locations": [-45, 37]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 189,
+      "angle": -145,
+      "locations": [-45, -37]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [51, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [0, 59],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [0, -59],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-49, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0],
+      "renderOrderMod": 200
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71, 42.5],
+      "length": 98.044678,
+      "width": 39.673199,
+      "angle": 156,
+      "contrailSize": 39.673199,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-87, 13],
+      "length": 36,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-87, -13],
+      "length": 36,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, -43.5],
+      "length": 98.040001,
+      "width": 39.669998,
+      "angle": -156,
+      "contrailSize": 39.669998,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -84, -9.5,
+    -34.5, -81.5,
+    0, -144.5,
+    25.5, -95,
+    77, -11.5,
+    96, -0,
+    76, 13,
+    25.5, 95,
+    0, 144.5,
+    -34.5, 81.5,
+    -84, 9.5,
+    -96.5, -0
+  ]
+}

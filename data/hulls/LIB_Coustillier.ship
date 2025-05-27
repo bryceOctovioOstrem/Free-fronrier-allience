@@ -1,0 +1,163 @@
+{
+  "hullName": "LIB_Coustillier",
+  "hullId": "LIB_Coustillier",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/LIB_Coustillier.png",
+  "style": "LOW_TECH",
+  "height": 326,
+  "width": 261,
+  "center": [130.5, 163],
+  "collisionRadius": 163,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 168.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "autopulse",
+    "WS0008": "autopulse",
+    "WS0010": "LIB_MC_nukes_single"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 310,
+      "angle": -0,
+      "locations": [82, -0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 285,
+      "angle": -0,
+      "locations": [48, -0.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 90,
+      "locations": [-29, 96]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-29, 67.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": -90,
+      "locations": [-29, -95.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-29, -68.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [85, -45.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [86, 44.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": -0,
+      "locations": [113, -0.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-128, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-121, 39],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-121, -39],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -160.5, 0,
+    -113.5, -12.5,
+    -105, -25.5,
+    -119.5, -40,
+    -100, -49,
+    -48.5, -53.5,
+    -39, -107,
+    -28.5, -128,
+    -5.5, -67,
+    5.5, -55.5,
+    63.5, -56.5,
+    65, -34,
+    78.5, -26.5,
+    157, 0,
+    157, -0,
+    78.5, 26.5,
+    65, 34,
+    63.5, 56.5,
+    5.5, 55.5,
+    -5.5, 67,
+    -28.5, 128,
+    -39, 107,
+    -48.5, 53.5,
+    -100, 49,
+    -119.5, 40,
+    -105, 25.5,
+    -113.5, 12.5,
+    -160.5, -0
+  ]
+}

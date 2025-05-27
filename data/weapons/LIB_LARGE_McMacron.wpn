@@ -1,0 +1,55 @@
+{
+  "id": "LIB_LARGE_McMacron",
+  "specClass": "projectile",
+  "projectileSpecId": "LIB_large_macron_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/weapons/LIB_LARGE_McMacron_turret.png",
+  "turretGunSprite": "graphics/weapons/LIB_LARGE_McMacron_turret_barrel.png",
+  "hardpointSprite": "graphics/weapons/LIB_LARGE_McMacron_Hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/LIB_LARGE_McMacron_hardpoint_barrel.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 16,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    39,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    41,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.75,
+    "particleCount": 50,
+    "particleColor": [
+      255,
+      199,
+      44,
+      245
+    ]
+  },
+  "fireSoundOne": "LIB_large_macron_chargeup",
+  "fireSoundTwo": "LIB_large_macron_shot"
+}

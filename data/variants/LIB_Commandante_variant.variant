@@ -1,0 +1,58 @@
+{
+  "variantId": "LIB_Commandante_variant",
+  "hullId": "LIB_Commandante",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "operations_center",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sabotpod",
+        "WS0004": "sabotpod",
+        "WS0007": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0003": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_duel_laser_cannon_weapon",
+        "WS0006": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "taclaser",
+        "WS0009": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,89 @@
+{
+  "hullName": "LIB_celestisl_empress",
+  "hullId": "LIB_celestial_empress",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/LIB_Celestial_empress.png",
+  "style": "MIDLINE",
+  "height": 482,
+  "width": 147,
+  "center": [73.5, 241],
+  "collisionRadius": 241,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 245.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-215, 22],
+      "length": 67,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-215, -23],
+      "length": 67,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-186, 62.5],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-184.5, -64],
+      "length": 24,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-191, -47.5],
+      "length": 39,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-192, 47],
+      "length": 39,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    235.5, -0.5,
+    82, 49,
+    -101, 44,
+    -118, 47.5,
+    -137, 60,
+    -147, 56,
+    -159, 56,
+    -172, 68.5,
+    -186.5, 41,
+    -205, 12.5,
+    -224, -0,
+    -206.5, -13,
+    -189.5, -41,
+    -169, -68.5,
+    -158, -56,
+    -146.5, -56,
+    -138, -62.5,
+    -114.5, -45.5,
+    83.5, -49
+  ]
+}

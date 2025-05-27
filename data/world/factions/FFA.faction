@@ -1,0 +1,271 @@
+{
+	id:"FFA",
+	"color":[52, 140, 0,255],
+	"displayName":"Free Frontier Alliance",
+	"displayNameWithArticle":"Free Frontier Alliance",
+	"displayNameLong":"Free Frontier Alliance",
+	"displayNameLongWithArticle":"the Free Frontier Alliance",
+	"logo":"graphics/factions/FFA_flag.png",
+	"crest":"graphics/factions/FFA_crest.png",
+	"entityNamePrefix":"Alliance",
+	"shipNamePrefix":"FFA",
+	"shipNameSources":{
+		"GREEK":4,
+		"BRITISH_NAVY":4,
+
+		"SPACE":4,
+		"CELTIC":2,
+		"GENERAL":1,
+	},
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"FFA":22
+		},
+		"hulls":{
+			"buffalo2":0,
+			"gremlin":0,
+			"venture":0,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["merc"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["merc"],
+		"hulls":[
+		],
+	},
+
+
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	# listing capitals as priority will make them be picked even when they're the wrong "type" re: warship/carrier/phase ship
+	"priorityShips":{
+		"tags":["merc"],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["merc"],
+		"fighters":[
+			
+		],
+	},
+	"priorityFighters":{
+		"tags":["FFA"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["merc"],
+		"weapons":[
+			
+		],
+	},
+	"priorityWeapons":{
+		"tags":["FFA"],
+		"weapons":[],
+	},
+	"knownHullMods":{
+		"tags":["merc"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+		"LIB_duel_laser_cannon_weapon":15,
+		"LIB_single_laser_cannon_weapon":15,
+		"LIB_triple_laser_cannon_weapon":15,
+		"LIB_MC_nuke_medium":15,
+		"LIB_Mchowitzer":15,
+		"LIB_LARGE_McMacron":15,
+		"LIB_macron_small":15,
+		"LIB_gold_machine_gun":15,
+		"LIB_mc_macron_medium":15,
+		"LIB_gold_triple_machine_gun":15,
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+		"adaptive_coils":10,
+		"phase_anchor":10,
+		"hardenedshieldemitter":10,
+		"pointdefenseai":10,
+		"hiressensors":10,
+	},		
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.5,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"energy_weapon_mastery",
+			"field_modulation",
+		],
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},
+	"internalComms":"FFA_internal",
+"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait_mercenary06.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+			"graphics/portraits/portrait43.png",	
+			"graphics/portraits/portrait44.png",
+			"graphics/portraits/portrait47.png",	
+			"graphics/portraits/portrait48.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait_mercenary07.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait41.png",		
+			"graphics/portraits/portrait42.png",	
+			"graphics/portraits/portrait45.png",	
+			"graphics/portraits/portrait46.png",	
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Senior Operation Manager"},
+			"spaceCommander":{"name":"Operation Manager"},
+			
+			"factionLeader":{"name":"President"},
+		},
+		"posts":{
+			"factionLeader":{"name":"President"},
+			"patrolCommander":{"name":"Patrol Director"},
+			"fleetCommander":{"name":"Fleet Director"},
+			"baseCommander":{"name":"Base Director"},
+			"intelligenceDirector":{"name":"spymaster"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+			"business":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"official":5,
+			"business":5,
+		},
+	},			
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":5,
+		"AICoreRepMult":0.1,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":false,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"nomadic trade fleet",
+		"tradeLiner":"cruiseliner Flight",
+		"tradeSmuggler":"Expedited Trader",
+		"smallTrader":"nomadic trade tribe",
+		
+		"patrolSmall":"Mercenary Squadron",
+		"patrolMedium":"Mercenary Flotilla",
+		"patrolLarge":"Mercenary Company",
+		
+		"inspectionFleet":"QA Inspector",
+		"taskForce":"Special Affairs Fleet",
+		
+		"foodReliefFleet":"Charity Convoy",
+		
+		#"mercScout":"Contract Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+}

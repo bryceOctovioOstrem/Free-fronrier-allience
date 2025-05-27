@@ -1,0 +1,69 @@
+{
+  "id": "LIB_superSize",
+  "specClass": "projectile",
+  "projectileSpecId": "LIB_MC_nuke_small",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/LIB_superSizeMe_turret.png",
+  "hardpointSprite": "graphics/weapons/LIB_superSizeMe_hardpoint.png",
+  "renderHints": [
+  ],
+  "turretOffsets": [
+    12,
+    -8.5,
+    12,
+    9.5,
+    7,
+    -3.5,
+    7,
+    4.5,
+    15,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    -2,
+    2,
+    0
+  ],
+  "hardpointOffsets": [
+    21,
+    -8.5,
+    21,
+    9.5,
+    16,
+    -3.5,
+    16,
+    4.5,
+    24,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    -2,
+    2,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      245,
+      65,
+      35,
+      120
+    ]
+  },
+  "fireSoundTwo": "reaper_fire"
+}

@@ -1,0 +1,52 @@
+{
+  "hullName": "LIB_mcNuke_ship",
+  "hullId": "LIB_mcNuke_ship",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/LIB_mcNuke.png",
+  "style": "MIDLINE",
+  "height": 49,
+  "width": 35,
+  "center": [17.5, 24.5],
+  "collisionRadius": 26,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 11.5],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-21.5, -11.5],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -16.5, -14.5,
+    15.5, -14.5,
+    15.5, 14.5,
+    -16.5, 14.5
+  ]
+}

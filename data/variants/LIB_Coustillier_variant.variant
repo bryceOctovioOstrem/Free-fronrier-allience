@@ -1,0 +1,67 @@
+{
+  "variantId": "LIB_Coustillier_variant",
+  "hullId": "LIB_Coustillier",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "high_scatter_amp",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_gold_triple_machine_gun",
+        "WS0009": "LIB_gold_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_mc_macron_medium",
+        "WS0004": "LIB_MC_nuke_medium",
+        "WS0006": "LIB_MC_nuke_medium",
+        "WS0010": "LIB_MC_nukes_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_duel_laser_cannon_weapon",
+        "WS0005": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "autopulse",
+        "WS0008": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

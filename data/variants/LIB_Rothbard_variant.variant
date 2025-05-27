@@ -1,0 +1,70 @@
+{
+  "variantId": "LIB_Rothbard_variant",
+  "hullId": "LIB_Rothbard",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_gold_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_triple_laser_cannon_weapon",
+        "WS0010": "LIB_single_laser_cannon_weapon",
+        "WS0011": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_single_laser_cannon_weapon",
+        "WS0004": "LIB_single_laser_cannon_weapon",
+        "WS0005": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "breach",
+        "WS0007": "breach",
+        "WS0008": "breach",
+        "WS0009": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "LIB_MC_nukes_single",
+        "WS0013": "LIB_MC_nukes_single"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
