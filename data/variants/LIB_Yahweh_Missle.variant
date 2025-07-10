@@ -1,0 +1,75 @@
+{
+  "variantId": "LIB_Yahweh_Missle",
+  "hullId": "LIB_Yahweh",
+  "displayName": "Missle",
+  "goalVariant": true,
+  "fluxCapacitors": 44,
+  "fluxVents": 50,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0009": "gravitonbeam",
+        "WS0013": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "guardian",
+        "WS0006": "heavyburst",
+        "WS0014": "heavyburst",
+        "WS0015": "lrpdlaser",
+        "WS0017": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_Mchowitzer",
+        "WS0007": "LIB_Mchowitzer",
+        "WS0008": "gorgonpod",
+        "WS0010": "LIB_Mchowitzer",
+        "WS0011": "LIB_Mchowitzer",
+        "WS0016": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "tachyonlance",
+        "WS0012": "tachyonlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

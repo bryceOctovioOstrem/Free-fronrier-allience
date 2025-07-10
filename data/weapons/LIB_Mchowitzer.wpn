@@ -4,18 +4,19 @@
   "projectileSpecId": "LIB_how_proj",
   "type": "MISSILE",
   "size": "LARGE",
+  "displayArcRadius": 300,
   "turretSprite": "graphics/weapons/LIB_mc_howitzer_turret.png",
   "hardpointSprite": "graphics/weapons/LIB_mc_howitzer_hardpoint.png",
   "turretOffsets": [
-    63.5,
+    35.5,
     -0.5
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    72.5,
-    0
+    34,
+    -0.5
   ],
   "hardpointAngleOffsets": [
     0
@@ -33,10 +34,10 @@
     "blowbackLength": 22,
     "blowbackSpread": 15,
     "particleColor": [
-      155,
-      60,
-      50,
-      105
+      255,
+      215,
+      0,
+      50
     ]
   },
   "fireSoundTwo": "dragonfire_fire"

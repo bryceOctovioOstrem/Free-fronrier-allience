@@ -1,7 +1,7 @@
 {
   "id": "LIB_triple_laser_cannon_weapon",
   "specClass": "projectile",
-  "projectileSpecId": "LIB_triple_laser_cannon_shot",
+  "projectileSpecId": "LIB_laser_cannon_shot",
   "type": "ENERGY",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/LIB_tri_laser_cannon_turret.png",
@@ -57,5 +57,5 @@
       255
     ]
   },
-  "fireSoundTwo": "thermal_pulse_cannon_fire"
+  "fireSoundTwo": "pulse_laser_fire"
 }

@@ -3,11 +3,13 @@
   "hullId": "LIB_hussar",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 18,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
   "weaponGroups": [
     {
       "autofire": true,

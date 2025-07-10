@@ -15,8 +15,8 @@
     "coherer"
   ],
   "builtInWeapons": {
-    "WS0008": "taclaser",
-    "WS0009": "taclaser"
+    "WS0008": "irautolance",
+    "WS0009": "irautolance"
   },
   "weaponSlots": [
     {
@@ -84,7 +84,7 @@
     },
     {
       "id": "WS0008",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,
@@ -93,7 +93,7 @@
     },
     {
       "id": "WS0009",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "HIDDEN",
       "arc": 0,

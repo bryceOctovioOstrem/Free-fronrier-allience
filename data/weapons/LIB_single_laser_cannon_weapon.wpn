@@ -1,7 +1,7 @@
 {
   "id": "LIB_single_laser_cannon_weapon",
   "specClass": "projectile",
-  "projectileSpecId": "LIB_single_laser_cannon_shot",
+  "projectileSpecId": "LIB_laser_cannon_shot",
   "type": "ENERGY",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/LIB_single_laser_canon_turret.png",

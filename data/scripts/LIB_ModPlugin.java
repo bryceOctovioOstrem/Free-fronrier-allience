@@ -26,10 +26,10 @@ public class LIB_ModPlugin extends BaseModPlugin {
         libertyGen(); // star
         oportunidadGen();//  ming world desert/arid world
         isencaoGen();// heavy industy world jungle 
-        Rapture(); // farning world aquatic
+        Rapture(); // farming world aquatic
         factionRelations(); // sets faction relations 
         tlhabGen(); // fuel world cryvoulcanic
-	    frigjoringGen(); // refinery world tundra
+	frigjoringGen(); // refinery world tundra
 	//kulug();
 	//Mirfak();
 	//wangMangGen();
@@ -78,7 +78,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
         planet.setFaction("FFA");
-        //planet.setCustomDescriptionId("DR_planet_new_terra");
+        planet.setCustomDescriptionId("opertunidad");
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("FFA");
         market.addIndustry(Industries.POPULATION);
@@ -89,11 +89,11 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
       
         market.addCondition(Conditions.VERY_HOT);
-		market.addCondition(Conditions.DISSIDENT);
+	market.addCondition(Conditions.DISSIDENT);
        market.addCondition(Conditions.RUINS_SCATTERED);
         market.addCondition(Conditions.ORE_SPARSE);
         market.addCondition(Conditions.VICE_DEMAND);
-		//market.addCondition(Conditions.POLLUTION);
+        market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.RARE_ORE_ULTRARICH);
         //market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.FRONTIER);
@@ -113,7 +113,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
        market.addIndustry(Industries.LIGHTINDUSTRY);
        market.addIndustry(Industries.COMMERCE);
 
-        market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
+       /* market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
         
        market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
 		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
@@ -122,7 +122,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
 		market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.BETA_CORE);
 		market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
-       market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+       market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);*/
 
         //Industry MaistrePATROLHQ = market.getIndustry(Industries.PATROLHQ);// grabs the orbital 
        // MaistrePATROLHQ.setSpecialItem(new SpecialItemData(Items.CRYOARITHMETIC_ENGINE , null));// adds a cryo engine
@@ -140,7 +140,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-       // planet.setCustomDescriptionId("DR_planet_Maistre"); // adds planet description
+        planet.setCustomDescriptionId("opertunidad"); // adds planet description
 		//planet.setInteractionImage("illustrations", "Maistre_planet");//adds illustration
         system.updateAllOrbits();
     }
@@ -152,7 +152,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
         MarketAPI market = Global.getFactory().createMarket(
                 "isencao_market", //market id
                 planet.getName(), //market display name, usually the planet's name
-                6 //market size
+                5 //market size
         );
 
 
@@ -167,8 +167,8 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
         market.setFactionId("FFA");
         market.addIndustry(Industries.POPULATION);
-        market.addCondition(Conditions.POPULATION_4);
-        market.setSize(6);
+        market.addCondition(Conditions.POPULATION_5);
+        market.setSize(5);
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
         market.addSubmarket(Submarkets.SUBMARKET_BLACK);
         market.addSubmarket(Submarkets.SUBMARKET_OPEN);
@@ -177,9 +177,9 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.addCondition(Conditions.HOT);
         market.addCondition(Conditions.DISSIDENT);
         market.addCondition(Conditions.ORE_SPARSE);
-        market.addCondition(Conditions.ORGANICS_ABUNDANT);
+        market.addCondition(Conditions.ORGANICS_PLENTIFUL);
         market.addCondition(Conditions.INDUSTRIAL_POLITY);
-        market.addCondition(Conditions.FARMLAND_POOR);
+        market.addCondition(Conditions.FARMLAND_BOUNTIFUL);
         market.addCondition(Conditions.POLLUTION);
         market.addCondition(Conditions.INIMICAL_BIOSPHERE);
         market.addCondition(Conditions.VICE_DEMAND);
@@ -192,13 +192,12 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.ORBITALWORKS);
         market.addIndustry(Industries.WAYSTATION);
         market.addIndustry(Industries.LIGHTINDUSTRY);
-        market.addIndustry(Industries.COMMERCE);
+        //market.addIndustry(Industries.FARMING);
         market.addIndustry(Industries.MINING);
 
         
-         market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.ALPHA_CORE);
-         market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
-        
+        /*market.getIndustry(Industries.ORBITALWORKS).setAICoreId(Commodities.ALPHA_CORE);
+        market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.ALPHA_CORE);
        market.getIndustry(Industries.HEAVYBATTERIES).setAICoreId(Commodities.GAMMA_CORE);
 		market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
 		market.getIndustry(Industries.STARFORTRESS_MID).setAICoreId(Commodities.GAMMA_CORE);
@@ -206,7 +205,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
 		market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         //market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.BETA_CORE);
 		market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
-       market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+       market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);*/
 
 
         //add special items to industries WIP
@@ -222,7 +221,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-       // planet.setCustomDescriptionId("DR_planet_Ilyin"); // adds planet description
+        planet.setCustomDescriptionId("isencao"); // adds planet description
 		//planet.setInteractionImage("illustrations", "illyn_planet");//adds illustration
         system.updateAllOrbits();
 
@@ -263,6 +262,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
         //market.addCondition(Conditions.RUINS_WIDESPREAD);
         market.addCondition(Conditions.ORE_SPARSE);
         market.addCondition(Conditions.VICE_DEMAND);
+        market.addCondition(Conditions.POLLUTION);
 
         // industries
         market.addIndustry(Industries.MEGAPORT);
@@ -277,8 +277,8 @@ public class LIB_ModPlugin extends BaseModPlugin {
         market.addIndustry(Industries.GROUNDDEFENSES); //GroundDefenses
 
 
-         market.getIndustry(Industries.AQUACULTURE).setAICoreId(Commodities.ALPHA_CORE);
-        
+         
+        /*market.getIndustry(Industries.AQUACULTURE).setAICoreId(Commodities.ALPHA_CORE);
         market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
 	 	market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
 	 	market.getIndustry(Industries.STARFORTRESS_MID).setAICoreId(Commodities.GAMMA_CORE);
@@ -286,7 +286,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
 		market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.BETA_CORE);
 	 	market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);*/
 
         market.getTariff().modifyFlat("generator", 0.15f);
         //planet.setMarket(market);
@@ -296,7 +296,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
-        //planet.setCustomDescriptionId("DR_planet_Burke"); // adds planet description
+        planet.setCustomDescriptionId("rapture"); // adds planet description
         system.updateAllOrbits();
 
     }
@@ -333,7 +333,7 @@ private void tlhabGen(){
     market.addSubmarket(Submarkets.SUBMARKET_BLACK);
     market.addSubmarket(Submarkets.SUBMARKET_OPEN);
     market.addCondition(Conditions.VERY_COLD);
-    //market.addCondition(Conditions.HABITABLE);
+    market.addCondition(Conditions.POLLUTION);
      market.addCondition(Conditions.VOLATILES_DIFFUSE);
     market.addCondition(Conditions.FRONTIER);
     market.addCondition(Conditions.DISSIDENT);
@@ -355,7 +355,7 @@ private void tlhabGen(){
     market.addIndustry(Industries.MINING);
     market.addIndustry(Industries.GROUNDDEFENSES); //GroundDefenses
 
-         market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
+        /* market.getIndustry(Industries.MINING).setAICoreId(Commodities.ALPHA_CORE);
         
         market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
 	 	market.getIndustry(Industries.POPULATION).setAICoreId(Commodities.GAMMA_CORE);
@@ -364,7 +364,7 @@ private void tlhabGen(){
 		market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.BETA_CORE);
 	 	market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);*/
 
 
     market.getTariff().modifyFlat("generator", 0.15f);
@@ -375,7 +375,7 @@ private void tlhabGen(){
             market, //The market to add obviously!
             true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
     );
-    //planet.setCustomDescriptionId("DR_planet_Burke"); // adds planet description
+    planet.setCustomDescriptionId("thalb"); // adds planet description
     system.updateAllOrbits();
 
 }
@@ -414,6 +414,7 @@ private void frigjoringGen(){
     market.addCondition(Conditions.ORGANICS_TRACE);
     market.addCondition(Conditions.FARMLAND_POOR);
     market.addCondition(Conditions.VICE_DEMAND);
+    market.addCondition(Conditions.POLLUTION);
 
     // industries
     market.addIndustry(Industries.MEGAPORT);
@@ -427,7 +428,7 @@ private void frigjoringGen(){
     market.addIndustry(Industries.GROUNDDEFENSES); //GroundDefenses
 
 
-         market.getIndustry(Industries.REFINING).setAICoreId(Commodities.ALPHA_CORE);
+         /*market.getIndustry(Industries.REFINING).setAICoreId(Commodities.ALPHA_CORE);
          market.getIndustry(Industries.FUELPROD).setAICoreId(Commodities.ALPHA_CORE);
 
         market.getIndustry(Industries.GROUNDDEFENSES).setAICoreId(Commodities.GAMMA_CORE);
@@ -437,7 +438,7 @@ private void frigjoringGen(){
 		market.getIndustry(Industries.COMMERCE).setAICoreId(Commodities.GAMMA_CORE);
         market.getIndustry(Industries.LIGHTINDUSTRY).setAICoreId(Commodities.BETA_CORE);
 	 	market.getIndustry(Industries.WAYSTATION).setAICoreId(Commodities.GAMMA_CORE);
-        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);
+        market.getIndustry(Industries.MEGAPORT).setAICoreId(Commodities.GAMMA_CORE);*/
 
     market.getTariff().modifyFlat("generator", 0.15f);
     //planet.setMarket(market);
@@ -447,7 +448,7 @@ private void frigjoringGen(){
             market, //The market to add obviously!
             true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
     );
-    //planet.setCustomDescriptionId("DR_planet_Burke"); // adds planet description
+    planet.setCustomDescriptionId("frigjoring"); // adds planet description
     system.updateAllOrbits();
 
 }

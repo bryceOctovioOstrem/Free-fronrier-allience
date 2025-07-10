@@ -3,14 +3,23 @@
   "hullId": "LIB_Mises",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 30,
-  "fluxVents": 30,
+  "fluxCapacitors": 0,
+  "fluxVents": 29,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks"
+    "missleracks",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_freedom_zapper",
+        "WS0002": "LIB_freedom_zapper"
+      }
+    },
     {
       "autofire": true,
       "mode": "LINKED",
@@ -19,14 +28,6 @@
         "WS0006": "lightdualmg",
         "WS0009": "lightdualmg",
         "WS0010": "lightdualmg"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0013": "LIB_MC_nuke_medium",
-        "WS0014": "LIB_MC_nuke_medium"
       }
     },
     {
@@ -48,25 +49,24 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "ionbeam",
-        "WS0012": "ionbeam"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0007": "LIB_MC_nukes_single",
-        "WS0008": "LIB_MC_nukes_single"
+        "WS0008": "LIB_MC_nukes_single",
+        "WS0013": "LIB_MC_nuke_medium",
+        "WS0014": "LIB_MC_nuke_medium"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "shockrepeater",
-        "WS0002": "shockrepeater"
+        "WS0011": "LIB_duel_laser_cannon_weapon",
+        "WS0012": "LIB_duel_laser_cannon_weapon"
       }
     }
   ],

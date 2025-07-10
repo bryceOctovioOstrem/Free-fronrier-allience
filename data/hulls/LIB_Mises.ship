@@ -15,8 +15,8 @@
     "coherer"
   ],
   "builtInWeapons": {
-    "WS0001": "shockrepeater",
-    "WS0002": "shockrepeater",
+    "WS0001": "LIB_freedom_zapper",
+    "WS0002": "LIB_freedom_zapper",
     "WS0003": "LIB_arm_flame",
     "WS0004": "LIB_arm_flame"
   },
@@ -38,24 +38,6 @@
       "arc": 130,
       "angle": -90,
       "locations": [8, -84]
-    },
-    {
-      "id": "WS0003",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [110.5, 26.5]
-    },
-    {
-      "id": "WS0004",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [110.5, -26.5]
     },
     {
       "id": "WS0005",
@@ -164,6 +146,24 @@
       "arc": 180,
       "angle": -116.5,
       "locations": [-48.5, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [110.5, 27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [110.5, -27.5]
     }
   ],
   "engineSlots": [

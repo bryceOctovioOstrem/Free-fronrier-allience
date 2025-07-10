@@ -3,7 +3,7 @@
   "hullId": "LIB_olorin",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 46,
+  "fluxCapacitors": 47,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -28,7 +28,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "heavyburst",
-        "WS0005": "LIB_gold_machine_gun",
+        "WS0005": "vulcan",
         "WS0007": "LIB_gold_machine_gun",
         "WS0008": "LIB_gold_machine_gun"
       }

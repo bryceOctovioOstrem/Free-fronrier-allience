@@ -18,7 +18,9 @@
       "weapons": {
         "WS0002": "sabotpod",
         "WS0004": "sabotpod",
-        "WS0007": "sabotpod"
+        "WS0007": "sabotpod",
+        "WS0008": "irautolance",
+        "WS0009": "irautolance"
       }
     },
     {
@@ -40,10 +42,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0008": "taclaser",
-        "WS0009": "taclaser"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

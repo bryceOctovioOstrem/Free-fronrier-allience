@@ -1,7 +1,7 @@
 {
   "id": "LIB_duel_laser_cannon_weapon",
   "specClass": "projectile",
-  "projectileSpecId": "LIB_duel_laser_cannon_shot",
+  "projectileSpecId": "LIB_laser_cannon_shot",
   "type": "ENERGY",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/LIB_duel_laser_cannon_turret.png",

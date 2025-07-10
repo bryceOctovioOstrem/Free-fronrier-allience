@@ -36,7 +36,7 @@
       "mount": "HARDPOINT",
       "arc": 275,
       "angle": 0,
-      "locations": [105, -0]
+      "locations": [80, -0]
     },
     {
       "id": "WS0003",

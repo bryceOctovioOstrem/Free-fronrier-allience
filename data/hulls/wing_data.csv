@@ -1,5 +1,5 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number,,,,,,,,,,,,,,,,,,,,,
-Oliver_wing,LIB_fighter_laser_ship_variant,"fighter2, interceptor,merc,FFA",2,,6,10,CLAW,6000,500,900,3,FIGHTER,Heavy Interceptor,15,10000,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,
+Oliver_wing,LIB_fighter_laser_ship_variant,"fighter2, interceptor,merc,FFA",2,,6,10,CLAW,6000,500,900,4,FIGHTER,Heavy Interceptor,15,10000,,,,,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,
 Lancer_wing,LIB_macron_ship_merc,"fighter3, fighter, merc,FFA",1,,8,12,V,6000,500,-400,3,FIGHTER,Heavy Fighter,10,10000,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,,,,,,
 mcBomber_wing,LIB_mcNuke_ship_merc,"bomber3, bomber, merc, FFA",0,,3,20,V,4000,2000,600,3,BOMBER,Bomber,15,5000,,,,,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,
 Herrera_wing,LIB_heavy_machine_gun_fighter,"fighter4, fighter, low, lowtech_bp, merc, ind,FFA",0,,6,6,V,4000,500,,3,FIGHTER,Interceptor,10,7000,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,

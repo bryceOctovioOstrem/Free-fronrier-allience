@@ -3,7 +3,7 @@
   "hullId": "LIB_posidon",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 24,
+  "fluxCapacitors": 12,
   "fluxVents": 30,
   "quality": 2,
   "permaMods": [],

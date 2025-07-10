@@ -26,7 +26,7 @@
 					   "particleDuration":0.15,
 					   "particleCount":11,
 					   "particleColor":[255,240,165,200]},	
-	"projectileSpecId":"LIB_medium_macron_shot",  # projectile that will be fired
+	"projectileSpecId":"LIB_macron_small_shot",  # projectile that will be fired
 	#"noImpactSounds":true,
 	#"noShieldImpactSounds":true,
 	#"noNonShieldImpactSounds":true,

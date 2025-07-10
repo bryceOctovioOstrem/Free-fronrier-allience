@@ -1,0 +1,77 @@
+{
+  "variantId": "LIB_Yahweh_FFA",
+  "hullId": "LIB_Yahweh",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 39,
+  "fluxVents": 50,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "operations_center",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "heavyburst",
+        "WS0008": "heavyburst",
+        "WS0009": "heavyburst",
+        "WS0013": "heavyburst",
+        "WS0014": "heavyburst",
+        "WS0015": "lrpdlaser",
+        "WS0016": "heavyburst",
+        "WS0017": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_triple_laser_cannon_weapon",
+        "WS0003": "LIB_triple_laser_cannon_weapon",
+        "WS0004": "LIB_triple_laser_cannon_weapon",
+        "WS0012": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LIB_Mchowitzer",
+        "WS0010": "LIB_Mchowitzer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

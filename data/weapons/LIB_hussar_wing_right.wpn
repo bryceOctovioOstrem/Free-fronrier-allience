@@ -1,35 +1,56 @@
 {
   "id": "LIB_hussar_wing_right",
-  "specClass": "projectile",
+  "specClass": "beam",
   "type": "DECORATIVE",
   "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/LIB_hussar_right_wing.png",
   "hardpointSprite": "graphics/weapons/LIB_hussar_right_wing.png",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    255,
+    100,
+    100,
+    255
+  ],
+  "hitGlowRadius": 0,
   "turretOffsets": [
-    13,
+    0,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    19,
+    0,
     0
   ],
   "hardpointAngleOffsets": [
     0
   ],
-  "barrelMode": "ALTERNATING",
-  "animationType": "MUZZLE_FLASH",
-	"muzzleFlashSpec":{"length":0.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":5.0,
-					   "particleSizeMin":15.0,
-					   "particleSizeRange":20.0,
-					   "particleDuration":0.12,
-					   "particleCount":10,
-					   "particleColor":[211, 175, 55,255]},	
-	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
-	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
-	"projectileSpecId":"LIB_single_laser_cannon_shot",  # projectile that will be fired
-	"fireSoundTwo":"ir_pulse_laser_fire",
+  "fringeColor": [
+    155,
+    0,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 17,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    ASTEROID
+  ]
 }

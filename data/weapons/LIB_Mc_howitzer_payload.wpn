@@ -1,6 +1,9 @@
+
+
 {
 	"specClass":"beam",
 	"id":"LIB_Mc_howitzer_payload",
+	"beamEffect":"com.fs.starfarer.api.impl.combat.GravitonBeamEffect",
 	"type":"ENERGY",
 	"size":"LARGE",
 	"collisionClass":"RAY_FIGHTER",
@@ -9,28 +12,18 @@
 	"turretGlowSprite":"graphics/fx/empty.png",
 	"hardpointSprite":"graphics/fx/empty.png",
 	"hardpointGlowSprite":"graphics/fx/empty.png",
-	"turretOffsets":[8, 0],
+	"turretOffsets":[5, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[8, 0],
+	"hardpointOffsets":[5, 0],
 	"hardpointAngleOffsets":[0],
-	#"glowColor":[255,165,100,255],	
-	#"fringeColor":[255,165,100,225],
-
-#	"glowColor":[255,100,100,255],	
-#	"fringeColor":[255,100,100,225],
-#	"coreColor":[255,255,255,255],
-
 	"glowColor":[44,250,31,255],	
 	"fringeColor":[255,199,44,225],
 	"coreColor":[218,41,28,255],
-
-	"hitGlowBrightenDuration":0,
-	"hitGlowRadius":500,
+	"hitGlowRadius":535,
 	"width":50.0,
-	"textureType":LASER,
-	"textureScrollSpeed":64.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":260.0,
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF,FIGHTER,ASTEROID],
-	"playFullFireSoundOne":true,
-	"fireSoundOne":"dragonfire_payload_fire",
+	"fireSoundOne":"dragonfire_payload_fire",	
 }
