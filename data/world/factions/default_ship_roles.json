@@ -35,6 +35,8 @@
 		"LIB_ayn_rand_variant":10,
 		"LIB_tolkien_variant":10,
 		"LIB_olorin_variant":10,
+		"LIB_Yahweh_Missle":5,
+		"LIB_Yahweh_FFA":5,
 		"fallback":{"combatLarge":.5},
 	},
 	
@@ -79,6 +81,8 @@
 		"fallback2":{"freighterLarge":0.5},
 	},
 	"freighterLarge":{
+		"LIB_Yahweh_Missle":1,
+		"LIB_Yahweh_FFA":1,
 		"fallback":{"freighterMedium":1},
 		"fallback2":{"freighterSmall":1},
 	},
@@ -90,7 +94,9 @@
 	"tankerMedium":{
 		"fallback":{"tankerSmall":0.5},
 	},
-	"tankerLarge":{		
+	"tankerLarge":{	
+		"LIB_Yahweh_Missle":1,
+		"LIB_Yahweh_FFA":1,	
 		"fallback":{"tankerMedium":1},
 		"fallback2":{"tankerSmall":1},
 	},

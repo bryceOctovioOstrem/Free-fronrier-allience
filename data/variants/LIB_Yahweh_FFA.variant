@@ -3,7 +3,7 @@
   "hullId": "LIB_Yahweh",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 39,
+  "fluxCapacitors": 29,
   "fluxVents": 50,
   "quality": 3,
   "permaMods": [],

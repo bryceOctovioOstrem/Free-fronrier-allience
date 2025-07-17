@@ -3,7 +3,7 @@
   "hullId": "LIB_Yahweh",
   "displayName": "Missle",
   "goalVariant": true,
-  "fluxCapacitors": 44,
+  "fluxCapacitors": 34,
   "fluxVents": 50,
   "quality": 3,
   "permaMods": [],

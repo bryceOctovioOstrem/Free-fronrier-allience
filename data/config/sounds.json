@@ -8,6 +8,75 @@
 		"LIB_large_macron_chargeup":
 	[
 		{"file":"sounds/sfx_wpn_guns/LIB_large_macron_chargeup.ogg","pitch":1,"volume":.2},
-	]
+	],
+	"music":{
+        	"music_FFA_theme":[
+			{
+                	"source":"sounds/music",
+				"volume":0.2,
+				"files":[
+					"HaydenFolker-TheJourney.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_FFA_theme_hostile":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"HaydenFolker-TrainRobberyDemo.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_FFA_theme_happy":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"AlexanderNakarada-BanjosUnite.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_FFA_market":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"GhostrifterOfficial-Deflector.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_FFA_market_happy":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"jiglr-Cyberpunk.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+	"music_FFA_market_aggresive":[
+			{
+               	 "source":"sounds/music",
+				"volume":0.4,
+				"files":[
+					"AlexProductions-Rebel.ogg",
+				],
+				"randomStart":false, 
+			},
+		],
+
+
+	}
 	
 }
