@@ -15,7 +15,7 @@ public class LIB_Relations implements SectorGeneratorPlugin {
         FFA.setRelationship(Factions.LUDDIC_CHURCH, -0.35f);
 	FFA.setRelationship(Factions.INDEPENDENT, 0.5f);
         FFA.setRelationship(Factions.LUDDIC_PATH, -0.99f);
-        FFA.setRelationship(Factions.PERSEAN, .2f);
+        FFA.setRelationship(Factions.PERSEAN, -.35f);
         FFA.setRelationship(Factions.PIRATES, -0.5f);
         FFA.setRelationship("sindrian_diktat", -0.9f);
         FFA.setRelationship("hegemony", -0.9f);

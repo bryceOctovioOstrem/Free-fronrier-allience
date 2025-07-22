@@ -10,7 +10,7 @@
      "noSyncRelations":true,
     "startRelationships":{ "hegemony": -0.3, "luddic_church":-0.6, "luddic_path":-0.8, "cabal":0.1 },
     "maxRelationships":{"luddic_path":-0.4,"hegemony": -0.35},
-    "diplomacyPositiveChance":{ "luddic_church":0.8, "luddic_path":0.4,"hegemony":0.5,"persean":1.2,"tritachyon": 1.2},
+    "diplomacyPositiveChance":{ "luddic_church":0.8, "luddic_path":0.4,"hegemony":0.5,"persean":1.4,"tritachyon": 1.2},
     "diplomacyNegativeChance":{ "luddic_church":1.2, "luddic_path":2.0,"hegemony":3.0},
     "morality":"amoral",
     
