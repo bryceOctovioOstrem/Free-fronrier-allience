@@ -16,7 +16,9 @@
     "repair_gantry",
     "advancedcore",
     "ground_support",
-    "delicate"
+    "delicate",
+    "ecm",
+    "eccm"
   ],
   "weaponSlots": [
     {

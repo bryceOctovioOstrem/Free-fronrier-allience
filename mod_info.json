@@ -1,8 +1,8 @@
 {
-    "id": "libertarian",
-    "name": "libertarian",
+    "id": "Free Frontier Allience",
+    "name": "FFA",
     "author": "LordKhorne",
-    "version": ".01",
+    "version": ".02",
     "description": " A hyper-liberterian faction for those with a love of freedom",
     "gameVersion": "0.98a",
     "dependencies": [],

@@ -1,0 +1,41 @@
+{
+  "variantId": "LIB_abeloth_energy",
+  "hullId": "LIB_abeloth",
+  "displayName": "Energy",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "LIB_gold_machine_gun",
+        "WS0005": "LIB_gold_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_single_laser_cannon_weapon",
+        "WS0002": "LIB_single_laser_cannon_weapon",
+        "WS0003": "LIB_single_laser_cannon_weapon",
+        "WS0006": "LIB_single_laser_cannon_weapon",
+        "WS0007": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "LIB_abeloth_he",
+  "hullId": "LIB_abeloth",
+  "displayName": "high_explosive",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0006": "ioncannon",
+        "WS0007": "ioncannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightmortar",
+        "WS0005": "lightmortar"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

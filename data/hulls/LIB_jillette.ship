@@ -1,0 +1,140 @@
+{
+  "hullName": "LIB_jillette",
+  "hullId": "LIB_jillette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/LIB_Jillette.png",
+  "style": "MIDLINE",
+  "height": 122,
+  "width": 100,
+  "center": [50, 61],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ecm"
+  ],
+  "builtInWeapons": {
+    "WS0002": "phasebeam"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [53, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, -36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61, -5],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -14],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -23],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-61.5, 8],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, 16.5],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, 26],
+      "length": 13.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -58, -27,
+    -45, -28,
+    -37.5, -36.5,
+    -21, -48,
+    -10, -49,
+    -8.5, -42,
+    6, -42,
+    6, -30,
+    -5, -30,
+    -4.5, -25,
+    -2.5, -18.5,
+    0, -15,
+    8, -12,
+    34.5, -7,
+    61, -7,
+    61, 7,
+    34.5, 7,
+    8, 12,
+    0, 15,
+    -2.5, 18.5,
+    -4.5, 25,
+    -5, 30,
+    6, 30,
+    6, 40,
+    -8.5, 40,
+    -10, 49,
+    -21, 48,
+    -37.5, 36.5,
+    -45, 28,
+    -58, 27
+  ]
+}
