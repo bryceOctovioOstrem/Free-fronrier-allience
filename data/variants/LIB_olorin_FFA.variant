@@ -1,0 +1,52 @@
+{
+  "variantId": "LIB_olorin_FFA",
+  "hullId": "LIB_olorin",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 48,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "advancedshieldemitter",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "LIB_gold_machine_gun",
+        "WS0007": "LIB_gold_machine_gun",
+        "WS0008": "LIB_gold_machine_gun",
+        "WS0014": "heavyburst",
+        "WS0015": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_duel_laser_cannon_weapon",
+        "WS0004": "LIB_duel_laser_cannon_weapon",
+        "WS0009": "LIB_triple_laser_cannon_weapon",
+        "WS0010": "LIB_duel_laser_cannon_weapon",
+        "WS0011": "LIB_duel_laser_cannon_weapon",
+        "WS0012": "LIB_duel_laser_cannon_weapon",
+        "WS0013": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_MC_nuke_medium",
+        "WS0002": "LIB_MC_nuke_medium",
+        "WS0006": "LIB_MC_nukes_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

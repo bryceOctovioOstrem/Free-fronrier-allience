@@ -3,18 +3,20 @@
   "hullId": "LIB_olorin",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 47,
+  "fluxCapacitors": 21,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missile_autoloader"
+    "missile_autoloader",
+    "missleracks"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0004": "gravitonbeam",
         "WS0010": "gravitonbeam",
         "WS0011": "gravitonbeam",
         "WS0012": "gravitonbeam",
@@ -27,27 +29,26 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "heavyburst",
-        "WS0005": "vulcan",
-        "WS0007": "LIB_gold_machine_gun",
-        "WS0008": "LIB_gold_machine_gun"
+        "WS0001": "breachpod",
+        "WS0002": "breachpod",
+        "WS0009": "locust"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "LIB_MC_nuke_medium",
-        "WS0002": "LIB_MC_nuke_medium",
-        "WS0004": "LIB_MC_nuke_medium",
-        "WS0006": "LIB_MC_nukes_single",
-        "WS0009": "LIB_LARGE_McMacron"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0005": "vulcan",
+        "WS0006": "lrpdlaser",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser"
+      }
     },
     {
       "autofire": false,

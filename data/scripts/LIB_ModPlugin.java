@@ -30,11 +30,6 @@ public class LIB_ModPlugin extends BaseModPlugin {
         factionRelations(); // sets faction relations 
         tlhabGen(); // fuel world cryvoulcanic
 	frigjoringGen(); // refinery world tundra
-	//kulug();
-	//Mirfak();
-	//wangMangGen();
-	//Diocletian();
-	//wangMangTwo();
 		
     }
     private void libertyGen() {
@@ -104,7 +99,7 @@ public class LIB_ModPlugin extends BaseModPlugin {
 
         // industries
         market.addIndustry(Industries.MEGAPORT);
-        market.addIndustry(Industries.STARFORTRESS_MID);
+        market.addIndustry(Industries.BATTLESTATION_MID);
 	    //market.addIndustry(DR_industries.DR_STATION3);
         market.addIndustry(Industries.PATROLHQ);
         market.addIndustry(Industries.GROUNDDEFENSES); //GroundDefenses
@@ -296,6 +291,10 @@ public class LIB_ModPlugin extends BaseModPlugin {
                 market, //The market to add obviously!
                 true //The "withJunkAndChatter" flag. It will add space debris in orbit and radio chatter sound effects.*
         );
+
+        Industry raptureLightIndustry = market.getIndustry(Industries.LIGHTINDUSTRY);// grabs the fuel production 
+        raptureLightIndustry.setSpecialItem(new SpecialItemData(Items.BIOFACTORY_EMBRYO, null));// adds a corrupted nano forge
+
         planet.setCustomDescriptionId("rapture"); // adds planet description
         system.updateAllOrbits();
 
@@ -344,7 +343,7 @@ private void tlhabGen(){
 
     // industries
     market.addIndustry(Industries.MEGAPORT);
-    market.addIndustry(Industries.STARFORTRESS_MID);
+    market.addIndustry(Industries.BATTLESTATION_MID);
     market.addIndustry(Industries.PATROLHQ);
     //market.addIndustry(Industries.HEAVYINDUSTRY);
     
@@ -418,7 +417,7 @@ private void frigjoringGen(){
 
     // industries
     market.addIndustry(Industries.MEGAPORT);
-    market.addIndustry(Industries.STARFORTRESS_MID);
+    market.addIndustry(Industries.BATTLESTATION_MID);
     market.addIndustry(Industries.PATROLHQ);
     market.addIndustry(Industries.FUELPROD);
     market.addIndustry(Industries.WAYSTATION);

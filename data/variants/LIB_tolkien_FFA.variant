@@ -1,0 +1,65 @@
+{
+  "variantId": "LIB_tolkien_FFA",
+  "hullId": "LIB_tolkien",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 40,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "heavyarmor",
+    "hardenedshieldemitter",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_duel_laser_cannon_weapon",
+        "WS0002": "LIB_duel_laser_cannon_weapon",
+        "WS0003": "LIB_duel_laser_cannon_weapon",
+        "WS0004": "LIB_duel_laser_cannon_weapon",
+        "WS0005": "LIB_duel_laser_cannon_weapon",
+        "WS0006": "LIB_duel_laser_cannon_weapon",
+        "WS0007": "LIB_duel_laser_cannon_weapon",
+        "WS0008": "LIB_duel_laser_cannon_weapon",
+        "WS0009": "LIB_duel_laser_cannon_weapon",
+        "WS0010": "LIB_duel_laser_cannon_weapon",
+        "WS0011": "LIB_duel_laser_cannon_weapon",
+        "WS0012": "LIB_duel_laser_cannon_weapon",
+        "WS0013": "LIB_duel_laser_cannon_weapon",
+        "WS0014": "LIB_duel_laser_cannon_weapon",
+        "WS0015": "LIB_duel_laser_cannon_weapon",
+        "WS0016": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "LIB_gold_machine_gun",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "lrpdlaser",
+        "WS0021": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "LIB_MC_nukes_single",
+        "WS0023": "LIB_MC_nukes_single",
+        "WS0024": "LIB_MC_nuke_medium",
+        "WS0025": "LIB_MC_nuke_medium",
+        "WS0026": "LIB_MC_nukes_single",
+        "WS0027": "LIB_MC_nukes_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,184 @@
+{
+  "hullName": "LIB_Anhur",
+  "hullId": "LIB_Anhur",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/Anhur.png",
+  "style": "HIGH_TECH",
+  "height": 180,
+  "width": 190,
+  "center": [95, 90],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 102.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [72, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [-14, 37]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [-14, -37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59, 16],
+      "length": 25.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, 6.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-87, 36],
+      "length": 11.81,
+      "width": 10.74,
+      "angle": 142,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80, 44],
+      "length": 11.81,
+      "width": 10.74,
+      "angle": 142,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-88.5, -35],
+      "length": 11.81,
+      "width": 10.74,
+      "angle": -138,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-81.5, -42.5],
+      "length": 11.81,
+      "width": 10.74,
+      "angle": -138,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [18, -96],
+      "length": 15.5,
+      "width": 8,
+      "angle": -90,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [17.5, 96],
+      "length": 15.5,
+      "width": 8,
+      "angle": 90,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60, -6.5],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-59, -15],
+      "length": 24.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -46, 23,
+    -79.5, 23.5,
+    -88, 30.5,
+    -79, 42,
+    -52.5, 42.5,
+    -45.5, 47,
+    -53.5, 60,
+    -46, 75,
+    -33, 84,
+    -10.5, 67,
+    11.5, 89.5,
+    18.5, 95,
+    25, 87.5,
+    6, 54.5,
+    6, 49,
+    22, 32.5,
+    33.5, 31.5,
+    46, 22.5,
+    67.5, 58.5,
+    76, 51,
+    70, 17,
+    76, 15,
+    89.5, -0,
+    76, -14.5,
+    70, -17,
+    76, -51,
+    67.5, -58.5,
+    46, -22.5,
+    33.5, -31.5,
+    22, -32.5,
+    6, -49,
+    6, -54.5,
+    25, -87.5,
+    18.5, -95,
+    11.5, -89.5,
+    -10.5, -67,
+    -33, -84,
+    -46, -75,
+    -53.5, -60,
+    -45.5, -47,
+    -52.5, -42.5,
+    -79, -42,
+    -88, -30.5,
+    -79.5, -23.5,
+    -46, -23
+  ]
+}

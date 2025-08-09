@@ -5,16 +5,28 @@
 	"LIB_hussar_variant":10,
 	"LIB_competitor_variant":10,
 
+	"LIB_abeloth_he":10,
+	"LIB_abeloth_energy":10,
+	"LIB_jillette_merc":10,
+
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{ # FRIGATES AND DESTROYERS
 		"LIB_hussar_variant":10,
-		"LIB_Rothbard_variant":10,
+		"LIB_Rothbard_variant":5,
 		"LIB_competitor_variant":10,
+		"LIB_abeloth_he":10,
+		"LIB_abeloth_energy":10,
+		"LIB_jillette_merc":10,
+		
+		"LIB_Anhur_export":10,
+		"LIB_Anhur_FFA":5,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{ # DESTROYERS and light cruisers
 	"LIB_Rothbard_variant":10,
+	"LIB_Anhur_export":10,
+	"LIB_Anhur_FFA":5,
 	"LIB_odin_variant":5,
 	"LIB_Mises_variant":10,
 	"LIB_Commandante_variant":7,

@@ -1,0 +1,45 @@
+{
+  "variantId": "LIB_Anhur_FFA",
+  "hullId": "LIB_Anhur",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 20,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_gold_triple_machine_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_LARGE_McMacron"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "LIB_single_laser_cannon_weapon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
