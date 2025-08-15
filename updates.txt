@@ -1,5 +1,7 @@
 
 added anhur class
 added Abeloth class
-added jillette
+added jillette class
 gave all the death wedges ammofeed becacause empire at war
+fixed cargo icons
+increased Coustillier
