@@ -19,3 +19,5 @@ Mc large,LIB_superSize,2,,2500,1200,,1300,1300,60,10,18,15,,,HIGH_EXPLOSIVE,0,,0
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MC howitzer,LIB_Mchowitzer,2,,16000,2000,,4000,4000,15,2,25,3,,,HIGH_EXPLOSIVE,0,,0,4.99,1,,0,0,0,0,,150,500,12,600,,,"DO_NOT_AIM, STRIKE","strike8, missile3, merc, rare_bp, damage_special, damage_soft_flux",,,,Finisher,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s high explosive and EMP damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",10090,,,TRUE,11.94
    Mc_howitzer_payload,LIB_Mc_howitzer_payload,2,,0,800,9690,,9690,20,30,0,1,,,HIGH_EXPLOSIVE,0,,0.1,0.1,1,0.5,,,,,24000,,,,,,,SYSTEM,,,,,,,,,,,,,,,11.95
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Illustrious Gauss Cannon,LIB_illustrious_gauss_cannon,3,,5000,1200,,700,,300,2,25,,,,KINETIC,1200,,1,1,,,,,,,,1200,,,400,,,,"kinetic20, LR, remnant, rare_bp, hist1t, merc, ind",,,,Anti Shield,,,,,,,,,,6
