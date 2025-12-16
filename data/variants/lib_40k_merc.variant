@@ -1,0 +1,95 @@
+{
+  "variantId": "lib_40k_merc",
+  "hullId": "lib_40k",
+  "displayName": "Merc",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0003": "pdburst",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0030": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightneedler",
+        "WS0007": "lightneedler",
+        "WS0008": "lightneedler",
+        "WS0009": "lightneedler",
+        "WS0010": "lightneedler",
+        "WS0011": "lightneedler",
+        "WS0028": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "amblaster",
+        "WS0013": "amblaster",
+        "WS0014": "amblaster",
+        "WS0015": "amblaster",
+        "WS0016": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "lightneedler",
+        "WS0018": "lightneedler",
+        "WS0019": "lightneedler",
+        "WS0020": "lightneedler",
+        "WS0021": "lightneedler",
+        "WS0022": "lightneedler",
+        "WS0029": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "amblaster",
+        "WS0024": "amblaster",
+        "WS0025": "amblaster",
+        "WS0026": "amblaster",
+        "WS0027": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0031": "autopulse"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0033": "lib_40k_plow_variant"
+    }
+  ],
+  "wings": []
+}

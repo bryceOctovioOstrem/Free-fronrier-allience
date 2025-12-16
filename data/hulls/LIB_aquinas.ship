@@ -15,7 +15,7 @@
     "advancedcore",
     "ablative_armor",
     "distributed_fire_control",
-	"coherer"
+    "coherer"
   ],
   "builtInWeapons": {
     "WS0022": "LIB_Mchowitzer"

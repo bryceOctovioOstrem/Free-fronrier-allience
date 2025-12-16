@@ -1,0 +1,31 @@
+{
+  "hullName": "lib_40k_plow",
+  "hullId": "lib_40k_plow",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/lib_40k_plow.png",
+  "style": "LOW_TECH",
+  "height": 108,
+  "width": 141,
+  "center": [70.5, 39.5],
+  "collisionRadius": 81,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 89,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -1.5, -17.5,
+    -39, -69.5,
+    40.5, -32,
+    57.5, -13,
+    67.5, 0,
+    67.5, -0,
+    57.5, 13,
+    40.5, 32,
+    -39, 69.5,
+    -1.5, 17.5
+  ]
+}

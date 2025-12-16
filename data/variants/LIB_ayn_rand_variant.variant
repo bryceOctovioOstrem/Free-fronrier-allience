@@ -3,7 +3,7 @@
   "hullId": "LIB_ayn_rand",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 50,
+  "fluxCapacitors": 43,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -21,8 +21,10 @@
         "WS0002": "LIB_triple_laser_cannon_weapon",
         "WS0003": "LIB_triple_laser_cannon_weapon",
         "WS0004": "LIB_triple_laser_cannon_weapon",
+        "WS0009": "gorgonpod",
         "WS0016": "LIB_single_laser_cannon_weapon",
-        "WS0018": "LIB_single_laser_cannon_weapon"
+        "WS0018": "LIB_single_laser_cannon_weapon",
+        "WS0022": "LIB_Mchowitzer"
       }
     },
     {
@@ -53,9 +55,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0009": "breachpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -72,9 +72,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0022": "locust"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

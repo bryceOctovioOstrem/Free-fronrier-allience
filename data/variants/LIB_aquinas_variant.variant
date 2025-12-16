@@ -3,7 +3,7 @@
   "hullId": "LIB_aquinas",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 50,
+  "fluxCapacitors": 27,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -14,7 +14,12 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "LIB_triple_laser_cannon_weapon",
-        "WS0002": "LIB_triple_laser_cannon_weapon"
+        "WS0002": "LIB_triple_laser_cannon_weapon",
+        "WS0007": "LIB_Mchowitzer",
+        "WS0008": "LIB_Mchowitzer",
+        "WS0019": "gorgon",
+        "WS0020": "gorgon",
+        "WS0021": "LIB_Mchowitzer"
       }
     },
     {
@@ -39,11 +44,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "locust",
-        "WS0008": "locust",
-        "WS0019": "breach",
-        "WS0020": "breach",
-        "WS0021": "locust",
         "WS0022": "LIB_Mchowitzer"
       }
     },

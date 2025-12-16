@@ -9,6 +9,10 @@
 	[
 		{"file":"sounds/sfx_wpn_guns/LIB_large_macron_chargeup.ogg","pitch":1,"volume":.2},
 	],
+		"LIB_giant_plasma":
+	[
+		{"file":"sounds/sfx_wpn_guns/lib_giant_plasma_cannon.ogg","pitch":1,"volume":.5},
+	],
 	"music":{
         	"music_FFA_theme":[
 			{

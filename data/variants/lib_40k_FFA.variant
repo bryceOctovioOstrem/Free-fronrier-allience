@@ -1,0 +1,97 @@
+{
+  "variantId": "lib_40k_FFA",
+  "hullId": "lib_40k",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 50,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0003": "pdburst",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0030": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "LIB_macron_small",
+        "WS0007": "LIB_macron_small",
+        "WS0008": "LIB_macron_small",
+        "WS0009": "LIB_macron_small",
+        "WS0010": "LIB_macron_small",
+        "WS0011": "LIB_macron_small",
+        "WS0028": "LIB_mc_macron_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "LIB_single_laser_cannon_weapon",
+        "WS0013": "LIB_single_laser_cannon_weapon",
+        "WS0014": "LIB_single_laser_cannon_weapon",
+        "WS0015": "LIB_single_laser_cannon_weapon",
+        "WS0016": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "LIB_macron_small",
+        "WS0018": "LIB_macron_small",
+        "WS0019": "LIB_macron_small",
+        "WS0020": "LIB_macron_small",
+        "WS0021": "LIB_macron_small",
+        "WS0022": "LIB_macron_small",
+        "WS0029": "LIB_mc_macron_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "LIB_single_laser_cannon_weapon",
+        "WS0024": "LIB_single_laser_cannon_weapon",
+        "WS0025": "LIB_single_laser_cannon_weapon",
+        "WS0026": "LIB_single_laser_cannon_weapon",
+        "WS0027": "LIB_single_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0031": "autopulse"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0033": "lib_40k_plow_variant"
+    }
+  ],
+  "wings": []
+}
