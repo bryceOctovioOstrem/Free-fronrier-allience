@@ -28,6 +28,11 @@ Anhur,LIB_Anhur,Destroyer,Mythic Manufacturing,maneuveringjets,12,5000,1000,5000
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Apollo,lib_apollo,Heavy Cruiser,Mythic Manufacturing,ammofeed,15,8000,1000,9000,11000,550,145,,70,45,35,15,20,1500,FRONT,,210,0.4,0.8,,,1,5,150,150,4,38,8,135000,4,12,480,0.25,25,25,,,,,,,,"MM_bp, merc, ind, FFA, pirate",,0.5,2,4,,25
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-A Durov,lib_40k,Combat Freighter,Pinnacle Aerospace,burndrive,28,40000,1800,22000,15000,600,300,,30,10,10,10,3,4000,OMNI,,120,0.4,0.9,,,600,1400,800,400,15,27,7,350000,3,12,720,0.25,35,35,,,,,,,,"PA_bp, merc, ind, FFA, pirate",,0.4,2,4,,26
+Durov,lib_40k,Combat Freighter,Supreme Solutions,burndrive,28,40000,1800,22000,15000,600,300,,30,10,10,10,3,4000,OMNI,,120,0.4,0.9,,,800,1400,800,400,15,27,7,350000,3,12,720,0.25,35,35,,,,,,,,"SS_bp, merc, ind, FFA, pirate",,0.4,2,4,,26
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,lib_40k_plow,Vambrace Module,Pinnacle Aerospace,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,27
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A locke,LIB_locke,Battleship,High Tech,damper,40,42000,2100,30000,31250,1400,415,8,30,15,10,3,3,5000,OMNI,,360,0.6,0.6,,,400,1000,300,300,10,30,7,4200000,4,20,720,0.25,60,60,,,,,,,,"SS_bp, merc, ind, FFA, pirate",,0.5,2,4,,28
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,LIB_locke_eagle_left,Vambrace Module,Supreme Solutions,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,29
+,LIB_locke_eagle_right,Vambrace Module,Supreme Solutions,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,30

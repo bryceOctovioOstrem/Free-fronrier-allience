@@ -1,0 +1,73 @@
+{
+  "variantId": "LIB_locke_merc",
+  "hullId": "LIB_locke",
+  "displayName": "Merc",
+  "goalVariant": true,
+  "fluxCapacitors": 46,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyburst",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gauss",
+        "WS0002": "gauss",
+        "WS0003": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "harpoonpod",
+        "WS0008": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "tachyonlance",
+        "WS0006": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+      {"WS0015": "LIB_locke_eagle_left_variant"},
+      {"WS0016": "LIB_locke_eagle_right_variant"},
+  ],
+  "wings": [
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "broadsword_wing",
+    "xyphos_wing"
+  ]
+}

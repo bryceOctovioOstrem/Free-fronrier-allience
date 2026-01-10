@@ -1,0 +1,24 @@
+{
+  "hullName": "LIB_locke_eagle_right",
+  "hullId": "LIB_locke_eagle_right",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/lib_locke_eagle_right.png",
+  "style": "HIGH_TECH",
+  "height": 181,
+  "width": 175,
+  "center": [93, 89],
+  "collisionRadius": 119,
+  "shieldCenter": [1.5, 5.5],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    92, 57,
+    62.5, 91.5,
+    46.5, 52.5,
+    -28.5, 68,
+    -85, -79,
+    81.5, 17
+  ]
+}

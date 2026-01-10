@@ -1,0 +1,83 @@
+{
+  "variantId": "LIB_locke_FFA",
+  "hullId": "LIB_locke",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 50,
+  "quality": 3,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyburst",
+        "WS0007": "heavyburst",
+        "WS0008": "heavyburst",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_Mchowitzer",
+        "WS0003": "LIB_Mchowitzer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "LIB_LARGE_McMacron",
+        "WS0005": "LIB_triple_laser_cannon_weapon",
+        "WS0006": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [         
+      {"WS0015": "LIB_locke_eagle_left_variant"},
+      {"WS0016": "LIB_locke_eagle_right_variant"},
+  ],
+  "wings": [
+    "mcBomber_wing",
+    "mcBomber_wing",
+    "mcBomber_wing",
+    "mcBomber_wing",
+    "mcBomber_wing",
+    "Lancer_wing",
+    "Herrera_wing",
+    "Oliver_wing"
+  ]
+}
