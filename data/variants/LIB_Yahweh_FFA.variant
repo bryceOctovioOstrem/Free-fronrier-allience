@@ -3,14 +3,13 @@
   "hullId": "LIB_Yahweh",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 29,
+  "fluxCapacitors": 22,
   "fluxVents": 50,
   "quality": 3,
   "permaMods": [],
   "hullMods": [
     "advancedshieldemitter",
-    "operations_center",
-    "nav_relay"
+    "operations_center"
   ],
   "weaponGroups": [
     {
@@ -73,5 +72,8 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "Lancer_wing",
+    "mcBomber_wing"
+  ]
 }

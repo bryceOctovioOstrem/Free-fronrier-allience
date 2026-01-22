@@ -61,12 +61,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0022": "breach",
-        "WS0023": "breach",
-        "WS0024": "breachpod",
-        "WS0025": "breachpod",
-        "WS0026": "breach",
-        "WS0027": "breach"
+        "WS0022": "gorgon",
+        "WS0023": "gorgon",
+        "WS0024": "gorgonpod",
+        "WS0025": "gorgonpod",
+        "WS0026": "gorgon",
+        "WS0027": "gorgon"
       }
     },
     {

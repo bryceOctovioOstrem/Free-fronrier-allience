@@ -29,8 +29,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "breachpod",
-        "WS0002": "breachpod",
+        "WS0001": "gorgonpod",
+        "WS0002": "gorgonpod",
         "WS0009": "locust"
       }
     },
