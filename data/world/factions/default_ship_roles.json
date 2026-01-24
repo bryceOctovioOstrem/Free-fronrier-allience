@@ -49,6 +49,8 @@
 		"LIB_olorin_variant":2,
 		"LIB_Yahweh_Missle":1,
 		"LIB_Yahweh_FFA":1,
+		"LIB_locke_merc":1,
+		"LIB_locke_FFA":1,
 		"fallback":{"combatLarge":.1},
 	},
 	
@@ -81,7 +83,9 @@
 	},
 	"carrierLarge":{
 		"LIB_executive_variant":2,
-		"fallback":{"carrierMedium":1},
+		"LIB_locke_merc":1,
+		"LIB_locke_FFA":1,
+		"fallback":{"carrirMedium":1},
 		"fallback2":{"carrierSmall":1},
 	},
 

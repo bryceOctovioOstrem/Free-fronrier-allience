@@ -32,7 +32,7 @@ Durov,lib_40k,Combat Freighter,Supreme Solutions,burndrive,28,40000,1800,22000,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,lib_40k_plow,Vambrace Module,Pinnacle Aerospace,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,27
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-A locke,LIB_locke,Battleship,High Tech,damper,40,42000,2100,30000,31250,1400,415,8,30,15,10,3,3,5000,OMNI,,360,0.6,0.6,,,400,1000,300,300,10,30,7,4200000,4,20,720,0.25,80,80,,,,,,,,"SS_bp, merc, ind, FFA, pirate",,0.2,2,5,,28
+locke,LIB_locke,Battleship,High Tech,targetingfeed,40,42000,1800,28000,31250,1300,400,8,30,15,10,3,3,5000,OMNI,,360,0.6,0.6,,,400,1000,300,300,10,30,7,4200000,4,20,720,0.25,100,100,,,,,,,,"SS_bp, merc, ind, FFA, pirate",,0.2,2,5,,28
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,LIB_locke_eagle_left,Vambrace Module,Supreme Solutions,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,29
 ,LIB_locke_eagle_right,Vambrace Module,Supreme Solutions,,1,15000,4000,0,2500,0,0,,0,0,0,0,0,3000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,1,2,4,,30
