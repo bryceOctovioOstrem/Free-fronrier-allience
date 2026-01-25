@@ -254,7 +254,7 @@
       "id": "WS0016",
       "size": "SMALL",
       "type": "STATION_MODULE",
-      "mount": "TURRET",
+      "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
       "locations": [267, -101]

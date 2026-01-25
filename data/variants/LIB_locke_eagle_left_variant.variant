@@ -1,8 +1,8 @@
 {
   "variantId": "LIB_locke_eagle_left_variant",
   "hullId": "LIB_locke_eagle_left",
-  "displayName": "New Variant",
-  "goalVariant": false,
+  "displayName": "locke eagle left",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

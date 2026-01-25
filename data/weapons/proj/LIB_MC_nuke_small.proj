@@ -10,7 +10,7 @@
 	"center":[4,9],
 	"collisionRadius":20,
 	"collisionClass":"MISSILE_FF",
-	"explosionColor":[218, 41, 28,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionColor":[44, 250, 31,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":350, # purely visual
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":175,
@@ -21,8 +21,8 @@
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":200,
-					 "particleColor":[255,155,155,255],
-					 "explosionColor":[218, 41, 28,255],
+					 "particleColor":[44, 250, 31,255],
+					 "explosionColor":[44, 250, 31,255],
 					 "detailedExplosionFlashColorFringe":[218, 41,28,255],
 					 "detailedExplosionFlashRadius":500,
 					 "useDetailedExplosion":true

@@ -68,7 +68,7 @@
   ],
   "modules": [         
       {"WS0015": "LIB_locke_eagle_left_variant"},
-      {"WS0016": "LIB_locke_eagle_right_variant"},
+      {"WS0016": "LIB_locke_eagle_right_variant"}
   ],
   "wings": [
     "mcBomber_wing",
