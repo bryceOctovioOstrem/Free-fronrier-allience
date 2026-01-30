@@ -1,2 +1,4 @@
 buffed the mc howitzer
 added locke class
+fixed executive and apollo descriptions
+
