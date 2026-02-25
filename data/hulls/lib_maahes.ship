@@ -1,0 +1,118 @@
+{
+  "hullName": "lib_maahes",
+  "hullId": "lib_maahes",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/hulls/lib_Maahes.png",
+  "style": "LOW_TECH",
+  "height": 252,
+  "width": 166,
+  "center": [83, 126],
+  "collisionRadius": 126,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 139.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "coherer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": 45,
+      "locations": [-9, 28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 115,
+      "angle": -45,
+      "locations": [-9, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 234,
+      "angle": 0,
+      "locations": [-18, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-79, 51.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-78.5, -53]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-62, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [77, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109, 17],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-109, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -19.5, 47.5,
+    -23.5, 37.5,
+    -55.5, 40,
+    -70, 82,
+    -87.5, 78,
+    -118.5, 23.5,
+    -107, 23.5,
+    -107.5, -23.5,
+    -121, -24,
+    -86.5, -78,
+    -70, -82,
+    -58.5, -39.5,
+    -24, -37.5,
+    -20, -47.5,
+    126, -0
+  ]
+}

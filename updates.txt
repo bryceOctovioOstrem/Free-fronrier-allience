@@ -1,4 +1,1 @@
-buffed the mc howitzer
-added locke class
-fixed executive and apollo descriptions
-
+removed eccm and ecm from yawhe class

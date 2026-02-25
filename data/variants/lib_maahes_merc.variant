@@ -1,0 +1,44 @@
+{
+  "variantId": "lib_maahes_merc",
+  "hullId": "lib_maahes",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "nav_relay",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "miningblaster",
+        "WS0007": "annihilator"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ionpulser",
+        "WS0006": "ionpulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

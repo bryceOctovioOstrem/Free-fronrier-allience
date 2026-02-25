@@ -12,8 +12,7 @@
   "shieldRadius": 413,
   "viewOffset": 0,
   "builtInMods": [
-    "advancedcore",
-    "coherer"
+    "advancedcore"
   ],
   "weaponSlots": [
     {

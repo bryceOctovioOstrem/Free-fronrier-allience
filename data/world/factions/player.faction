@@ -1,0 +1,29 @@
+{
+"portraits":{
+		"standard_male":[
+			"graphics/factions/portraits/lib_male_0.png",
+			"graphics/factions/portraits/lib_male_1.png",
+			"graphics/factions/portraits/lib_male_2.png",
+			"graphics/factions/portraits/lib_male_3.png",
+			"graphics/factions/portraits/lib_male_4.png",
+			"graphics/factions/portraits/lib_male_5.png",
+			"graphics/factions/portraits/lib_male_6.png",
+			"graphics/factions/portraits/lib_male_7.png",
+			"graphics/factions/portraits/lib_male_8.png",
+			"graphics/factions/portraits/lib_male_9.png",
+			"graphics/factions/portraits/lib_male_10.png",
+			"graphics/factions/portraits/lib_male_11.png",
+		],
+		"standard_female":[
+			"graphics/factions/portraits/lib_female_0.png",
+			"graphics/factions/portraits/lib_female_1.png",
+			"graphics/factions/portraits/lib_female_2.png",
+			"graphics/factions/portraits/lib_female_3.png",
+			"graphics/factions/portraits/lib_female_4.png",
+			"graphics/factions/portraits/lib_female_5.png",
+			"graphics/factions/portraits/lib_female_6.png",
+			"graphics/factions/portraits/lib_female_8.png",
+			"graphics/factions/portraits/lib_female_9.png",
+		],
+	}
+}

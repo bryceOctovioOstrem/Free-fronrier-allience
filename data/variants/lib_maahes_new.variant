@@ -1,0 +1,44 @@
+{
+  "variantId": "lib_maahes_new",
+  "hullId": "lib_maahes",
+  "displayName": "New",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "ecm",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "gorgonpod",
+        "WS0007": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

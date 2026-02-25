@@ -18,12 +18,18 @@
 		"LIB_abeloth_he":2,
 		"LIB_abeloth_energy":2,
 		"LIB_jillette_merc":2,
+
+		"lib_maahes_merc":1,
+		"lib_maahes_ffa":2,
 		
 		"LIB_Anhur_export":2,
 		"LIB_Anhur_FFA":1,
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{ # DESTROYERS and light cruisers
+	"lib_Garuda_FFA":1,
+	"lib_Garuda_merc":2,
+	
 	"LIB_Rothbard_variant":2,
 	"LIB_Anhur_export":2,
 	"LIB_Anhur_FFA":1,
@@ -33,6 +39,8 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{ # cruisers and small capitals
+	"lib_Garuda_FFA":1,
+	"lib_Garuda_merc":2,
 	"LIB_kanaloa_variant":2,
 	"LIB_Commandante_variant":7,
 	"LIB_Mises_variant":2,
