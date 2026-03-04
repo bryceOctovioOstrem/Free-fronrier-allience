@@ -3,8 +3,8 @@
   "hullId": "LIB_locke",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 6,
-  "fluxVents": 50,
+  "fluxCapacitors": 0,
+  "fluxVents": 37,
   "quality": 5,
   "permaMods": [],
   "hullMods": [
@@ -17,6 +17,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0002": "LIB_Mchowitzer",
         "WS0004": "heavyburst",
         "WS0007": "heavyburst",
         "WS0008": "heavyburst",
@@ -40,7 +41,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "LIB_LARGE_McMacron",
         "WS0005": "LIB_triple_laser_cannon_weapon",
         "WS0006": "LIB_triple_laser_cannon_weapon"
       }
@@ -66,9 +66,13 @@
       "weapons": {}
     }
   ],
-  "modules": [         
-      {"WS0015": "LIB_locke_eagle_left_variant"},
-      {"WS0016": "LIB_locke_eagle_right_variant"}
+  "modules": [
+    {
+      "WS0015": "LIB_locke_eagle_left_variant"
+    },
+    {
+      "WS0016": "LIB_locke_eagle_right_variant"
+    }
   ],
   "wings": [
     "mcBomber_wing",

@@ -3,70 +3,76 @@
   "hullId": "LIB_locke",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 11,
   "fluxVents": 50,
   "quality": 5,
   "permaMods": [],
   "hullMods": [
     "advancedshieldemitter",
-    "reinforcedhull"
+    "reinforcedhull",
+    "expanded_deck_crew",
+    "ecm"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "heavyburst",
+        "WS0005": "guardian",
+        "WS0006": "guardian",
         "WS0009": "lrpdlaser",
         "WS0010": "lrpdlaser",
-        "WS0011": "pdlaser",
-        "WS0012": "pdlaser",
-        "WS0013": "lrpdlaser",
-        "WS0014": "lrpdlaser",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "gauss",
-        "WS0002": "gauss",
-        "WS0003": "gauss"
+        "WS0001": "hil",
+        "WS0002": "hil",
+        "WS0003": "hil"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "gorgonpod",
-        "WS0008": "gorgonpod"
+        "WS0004": "gravitonbeam"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "guardian",
-        "WS0006": "guardian"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0007": "gazerpod",
+        "WS0008": "gazerpod",
+        "WS0013": "gazer",
+        "WS0014": "gazer"
+      }
     }
   ],
   "modules": [
-      {"WS0015": "LIB_locke_eagle_left_variant"},
-      {"WS0016": "LIB_locke_eagle_right_variant"},
+    {
+      "WS0015": "LIB_locke_eagle_left_variant"
+    },
+    {
+      "WS0016": "LIB_locke_eagle_right_variant"
+    }
   ],
   "wings": [
-    "trident_wing",
-    "trident_wing",
-    "trident_wing",
-    "trident_wing",
-    "trident_wing",
-    "trident_wing",
+    "dagger_wing",
+    "dagger_wing",
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing",
+    "broadsword_wing",
     "broadsword_wing",
     "xyphos_wing"
   ]
