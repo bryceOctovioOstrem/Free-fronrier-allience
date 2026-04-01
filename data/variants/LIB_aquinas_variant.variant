@@ -1,68 +1,47 @@
 {
   "variantId": "LIB_aquinas_variant",
   "hullId": "LIB_aquinas",
-  "displayName": "merc",
+  "displayName": "ffa",
   "goalVariant": true,
-  "fluxCapacitors": 27,
+  "fluxCapacitors": 11,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_Gold_penta_heavy_machinegun",
+        "WS0004": "LIB_Gold_penta_heavy_machinegun"
+      }
+    },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "LIB_triple_laser_cannon_weapon",
         "WS0002": "LIB_triple_laser_cannon_weapon",
-        "WS0007": "LIB_Mchowitzer",
-        "WS0008": "LIB_Mchowitzer",
-        "WS0019": "gorgon",
-        "WS0020": "gorgon",
-        "WS0021": "LIB_Mchowitzer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
         "WS0005": "LIB_triple_laser_cannon_weapon",
-        "WS0006": "LIB_triple_laser_cannon_weapon"
+        "WS0006": "LIB_triple_laser_cannon_weapon",
+        "WS0012": "LIB_single_laser_cannon_weapon",
+        "WS0013": "LIB_single_laser_cannon_weapon",
+        "WS0014": "gazer",
+        "WS0015": "LIB_single_laser_cannon_weapon",
+        "WS0016": "LIB_single_laser_cannon_weapon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "guardian",
-        "WS0004": "guardian",
-        "WS0015": "lrpdlaser",
-        "WS0016": "lrpdlaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0022": "LIB_Mchowitzer"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "lrpdlaser",
-        "WS0010": "lrpdlaser",
-        "WS0013": "lrpdlaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0011": "lrpdlaser",
-        "WS0012": "lrpdlaser",
-        "WS0014": "lrpdlaser"
+        "WS0009": "gazer",
+        "WS0010": "gazer",
+        "WS0011": "gazer",
+        "WS0021": "gazerpod"
       }
     },
     {
@@ -70,8 +49,30 @@
       "mode": "LINKED",
       "weapons": {
         "WS0017": "LIB_duel_laser_cannon_weapon",
-        "WS0018": "LIB_duel_laser_cannon_weapon"
+        "WS0018": "LIB_duel_laser_cannon_weapon",
+        "WS0019": "LIB_single_laser_cannon_weapon",
+        "WS0020": "LIB_single_laser_cannon_weapon"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "LIB_triple_laser_cannon_weapon",
+        "WS0008": "LIB_triple_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

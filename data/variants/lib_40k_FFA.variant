@@ -3,75 +3,74 @@
   "hullId": "lib_40k",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 36,
+  "fluxCapacitors": 22,
   "fluxVents": 50,
   "quality": 3,
   "permaMods": [],
   "hullMods": [
     "heavyarmor",
-    "armoredweapons",
-    "autorepair"
+    "autorepair",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lrpdlaser",
-        "WS0002": "lrpdlaser",
+        "WS0001": "pdburst",
+        "WS0002": "pdburst",
         "WS0003": "pdburst",
-        "WS0004": "pdlaser",
-        "WS0005": "pdlaser",
-        "WS0030": "lrpdlaser"
+        "WS0004": "pdburst",
+        "WS0005": "pdburst",
+        "WS0030": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "LIB_single_laser_cannon_weapon",
+        "WS0007": "LIB_single_laser_cannon_weapon",
+        "WS0008": "LIB_single_laser_cannon_weapon",
+        "WS0009": "LIB_single_laser_cannon_weapon",
+        "WS0010": "LIB_single_laser_cannon_weapon",
+        "WS0011": "LIB_single_laser_cannon_weapon",
+        "WS0017": "LIB_single_laser_cannon_weapon",
+        "WS0018": "LIB_single_laser_cannon_weapon",
+        "WS0019": "LIB_single_laser_cannon_weapon",
+        "WS0020": "LIB_single_laser_cannon_weapon",
+        "WS0021": "LIB_single_laser_cannon_weapon",
+        "WS0022": "LIB_single_laser_cannon_weapon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "LIB_macron_small",
-        "WS0007": "LIB_macron_small",
-        "WS0008": "LIB_macron_small",
-        "WS0009": "LIB_macron_small",
-        "WS0010": "LIB_macron_small",
-        "WS0011": "LIB_macron_small",
-        "WS0028": "LIB_mc_macron_medium"
+        "WS0012": "LIB_macron_small",
+        "WS0013": "LIB_macron_small",
+        "WS0014": "LIB_macron_small",
+        "WS0015": "LIB_macron_small",
+        "WS0016": "LIB_macron_small",
+        "WS0023": "LIB_macron_small",
+        "WS0024": "LIB_macron_small",
+        "WS0025": "LIB_macron_small",
+        "WS0026": "LIB_macron_small",
+        "WS0027": "LIB_macron_small"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "LIB_single_laser_cannon_weapon",
-        "WS0013": "LIB_single_laser_cannon_weapon",
-        "WS0014": "LIB_single_laser_cannon_weapon",
-        "WS0015": "LIB_single_laser_cannon_weapon",
-        "WS0016": "LIB_single_laser_cannon_weapon"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0017": "LIB_macron_small",
-        "WS0018": "LIB_macron_small",
-        "WS0019": "LIB_macron_small",
-        "WS0020": "LIB_macron_small",
-        "WS0021": "LIB_macron_small",
-        "WS0022": "LIB_macron_small",
+        "WS0028": "LIB_mc_macron_medium",
         "WS0029": "LIB_mc_macron_medium"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0023": "LIB_single_laser_cannon_weapon",
-        "WS0024": "LIB_single_laser_cannon_weapon",
-        "WS0025": "LIB_single_laser_cannon_weapon",
-        "WS0026": "LIB_single_laser_cannon_weapon",
-        "WS0027": "LIB_single_laser_cannon_weapon"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

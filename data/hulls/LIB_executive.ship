@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 384.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "coherer"
+  ],
   "builtInWeapons": {
     "WS0021": "pilum"
   },

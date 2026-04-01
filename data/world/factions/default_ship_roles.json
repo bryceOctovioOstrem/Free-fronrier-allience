@@ -52,7 +52,7 @@
 	},
 	"combatCapital":{ # capitals
 		"LIB_aquinas_variant":2,
-		"LIB_ayn_rand_variant":2,
+		"LIB_ayn_rand_ffa":2,
 		"LIB_tolkien_variant":2,
 		"LIB_olorin_variant":2,
 		"LIB_Yahweh_Missle":1,
@@ -62,7 +62,26 @@
 		"fallback":{"combatLarge":.1},
 	},
 	
-	
+	# phase ships
+	"phaseSmall":{
+		"fallback":{"phaseMedium":0.5},
+		"fallback2":{"phaseLarge":0.25},
+	},
+	"phaseMedium":{
+		"lib_kizner_ffa":1,
+		"lib_kizner_merc":1,
+		"fallback":{"phaseSmall":1},
+		"fallback2":{"phaseLarge":0.5},
+	},
+	"phaseLarge":{
+		"fallback":{"phaseMedium":1},
+		"fallback2":{"phaseSmall":1},
+	},
+	"phaseCapital":{
+		
+	},
+
+
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
 		"fallback":{"freighterSmall":1},

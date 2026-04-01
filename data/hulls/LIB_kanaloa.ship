@@ -14,7 +14,6 @@
   "builtInMods": [
     "surveying_equipment",
     "repair_gantry",
-    "coherer",
     "hiressensors"
   ],
   "weaponSlots": [

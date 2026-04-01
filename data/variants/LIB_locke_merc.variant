@@ -3,7 +3,7 @@
   "hullId": "LIB_locke",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 11,
+  "fluxCapacitors": 12,
   "fluxVents": 50,
   "quality": 5,
   "permaMods": [],
@@ -11,7 +11,7 @@
     "advancedshieldemitter",
     "reinforcedhull",
     "expanded_deck_crew",
-    "ecm"
+    "missleracks"
   ],
   "weaponGroups": [
     {
@@ -20,8 +20,8 @@
       "weapons": {
         "WS0005": "guardian",
         "WS0006": "guardian",
-        "WS0009": "lrpdlaser",
-        "WS0010": "lrpdlaser",
+        "WS0009": "pdburst",
+        "WS0010": "pdburst",
         "WS0011": "pdburst",
         "WS0012": "pdburst"
       }
@@ -67,8 +67,8 @@
     }
   ],
   "wings": [
-    "dagger_wing",
-    "dagger_wing",
+    "trident_wing",
+    "trident_wing",
     "broadsword_wing",
     "broadsword_wing",
     "broadsword_wing",

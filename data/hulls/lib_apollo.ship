@@ -74,7 +74,7 @@
       "size": "MEDIUM",
       "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 250,
+      "arc": 230,
       "angle": 180,
       "locations": [-115, -0],
       "renderOrderMod": 100
@@ -84,7 +84,7 @@
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 300,
+      "arc": 200,
       "angle": 0,
       "locations": [-25.5, -0],
       "renderOrderMod": 100

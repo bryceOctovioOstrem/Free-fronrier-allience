@@ -1,5 +1,1 @@
-removed eccm and ecm from yawhe class
-added maahes class
-added garuda class
-added posidon class description
-gave posidon class fortress shield hullmod
+chganged lib_40k ship sprite and made it a phase ship.

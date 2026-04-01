@@ -3,65 +3,55 @@
   "hullId": "LIB_ayn_rand",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 35,
+  "fluxCapacitors": 43,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks",
-    "hardenedshieldemitter"
+    "advancedshieldemitter",
+    "auxiliarythrusters"
   ],
   "weaponGroups": [
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0010": "pdburst",
-        "WS0011": "pdburst",
-        "WS0012": "pdlaser",
-        "WS0013": "pdlaser",
-        "WS0014": "vulcan",
-        "WS0018": "lrpdlaser",
-        "WS0019": "lrpdlaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "hil",
-        "WS0003": "hil",
-        "WS0004": "hil",
-        "WS0005": "hil",
-        "WS0007": "hil",
-        "WS0008": "hil",
-        "WS0016": "sabot",
-        "WS0017": "sabot"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "squall",
-        "WS0006": "squall"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "harpoonpod",
-        "WS0022": "hurricane"
-      }
-    },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "heatseeker",
-        "WS0020": "heatseeker",
-        "WS0021": "heatseeker"
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "pdburst",
+        "WS0018": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hephag",
+        "WS0002": "hephag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mark9",
+        "WS0004": "mark9",
+        "WS0005": "mark9",
+        "WS0006": "mark9",
+        "WS0007": "mark9",
+        "WS0008": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "gorgonpod",
+        "WS0010": "gorgon",
+        "WS0011": "gorgon"
       }
     }
   ],

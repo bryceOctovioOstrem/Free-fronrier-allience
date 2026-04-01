@@ -4,13 +4,13 @@
   "displayName": "FFA",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 37,
+  "fluxVents": 49,
   "quality": 5,
   "permaMods": [],
   "hullMods": [
     "advancedshieldemitter",
-    "missleracks",
-    "reinforcedhull"
+    "reinforcedhull",
+    "efficiency_overhaul"
   ],
   "weaponGroups": [
     {
@@ -21,12 +21,12 @@
         "WS0004": "heavyburst",
         "WS0007": "heavyburst",
         "WS0008": "heavyburst",
-        "WS0009": "pdlaser",
-        "WS0010": "pdlaser",
-        "WS0011": "pdlaser",
-        "WS0012": "pdlaser",
-        "WS0013": "pdlaser",
-        "WS0014": "pdlaser"
+        "WS0009": "pdburst",
+        "WS0010": "pdburst",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0013": "pdburst",
+        "WS0014": "pdburst"
       }
     },
     {

@@ -14,8 +14,7 @@
   "builtInMods": [
     "advancedcore",
     "missile_autoloader",
-    "ecm",
-    "coherer"
+    "ecm"
   ],
   "weaponSlots": [
     {

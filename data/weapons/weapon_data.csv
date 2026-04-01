@@ -1,7 +1,7 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-LRPL M23,LIB_duel_laser_cannon_weapon,1,0.5,2000,900,,17,,0,20,10,,,,ENERGY,15,,0.0825,0,1,,0,4,1,10,,900,,,,,,,"energy13, hightech_bp, merc",,,,General,,,,,,,,,,1
-LRPL M 18,LIB_single_laser_cannon_weapon,1,0.5,400,900,,17,,0,50,5,,,,ENERGY,15,,0.165,0,1,,0,6,1.5,10,,900,,,,,,PD_ALSO,"energy8, hightech_bp, merc, ind",,,,General,,,,,,,,,,2
-LRPL M 32,LIB_triple_laser_cannon_weapon,1,0.5,8000,900,,20,,0,10,20,,,,ENERGY,17,,0.04125,0,1,,0,8,2,5,,900,,,,,,PD_ALSO,"energy13, hightech_bp, merc",,,,General,,,,,,,,,,3
+Homesteader,LIB_duel_laser_cannon_weapon,1,0.5,2000,900,,17,,0,20,10,,,,ENERGY,15,,0.0825,0,1,,0,4,1,10,,900,,,,,,,"energy13, hightech_bp, merc",,,,General,,,,,,,,,,1
+Trailblazer,LIB_single_laser_cannon_weapon,1,0.5,400,900,,17,,0,50,5,,,,ENERGY,15,,0.165,0,1,,0,6,1.5,10,,900,,,,,,PD_ALSO,"energy8, hightech_bp, merc, ind",,,,General,,,,,,,,,,2
+freedom storm,LIB_triple_laser_cannon_weapon,1,0.5,8000,900,,20,,0,10,20,,,,ENERGY,17,,0.04125,0,1,,0,8,2,5,,900,,,,,,PD_ALSO,"energy13, hightech_bp, merc",,,,General,,,,,,,,,,3
 Mc Double,LIB_MC_nuke_medium,1,0.5,1600,1300,,1300,1300,75,20,10,12,,,HIGH_EXPLOSIVE,32,,0,13,2,,0,5,1,0,,500,50,3.5,500,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR","strike13, rocket8, missile_bp, merc, ind",,,,Torpedo,Fast,None,,,,,,,TRUE,4
 Mc Nuke,LIB_MC_nukes_single,1,0.5,400,1300,,1300,1300,75,10,2,3,,,HIGH_EXPLOSIVE,33,,0,13,1,,0,5,1,0,,500,50,3.5,500,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR","strike8, rocket3, missile_bp, merc, ind",,,,Torpedo,Fast,None,,,,,,,TRUE,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -13,11 +13,12 @@ LIB_hussar_wing_right,LIB_hussar_wing_right,0,0.5,0,0,,0,,0,15,3,,,,KINETIC,0,,6
 Large McMacron,LIB_LARGE_McMacron,0,0.5,3000,800,,2000,1000,200,4,21,,,,HIGH_EXPLOSIVE,2000,,3,3,1,,0,10,5,10,,1200,,,400,,,,"he18, lowtech_bp, merc, ind",,,,Anti Armor,,,,,,,,,,8
 Medium McMacron,LIB_mc_macron_medium,1,0.5,1300,800,,35,35,3,20,11,,,,HIGH_EXPLOSIVE,30,,0,0.15,1,,0,10,1,10,,1000,,,30,,,,"he15, SR, lowtech_bp, midline_bp, merc, ind",,,,Anti Armor,,,,,,,,,,10
 Small McMacron,LIB_macron_small,2,0.5,800,800,,50,50,10,25,4,,,,HIGH_EXPLOSIVE,50,,0.6,0,1,,0,8,1,10,,1000,,,50,,,,"kinetic8, LR, remnant, rare_bp, hist1t, merc, ind",,,,Anti Shield,,,,,,,,,,11
-Gold Plated Single Heavy Machine Gun,LIB_gold_machine_gun,2,,650,450,,40,,3,35,5,,,,KINETIC,12,,0,0.55,4,0.1,0,4,1,15,,700,,,30,,,PD,"kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,12
-Gold Plated Triple Heavy Machine Gun,LIB_gold_triple_machine_gun,2,,1250,400,,40,,3,36,12,,,,KINETIC,16,,0,0.09,4,0.1,0,6,1,15,,700,,,30,,,PD,"kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,13
+2nd admendment,LIB_gold_machine_gun,2,,650,450,,40,,3,40,5,,,,KINETIC,12,,0,0.3,2,0.1,0,4,1,15,,700,,,30,,,PD,"kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,12
+NAP enforcher,LIB_gold_triple_machine_gun,2,,1250,400,,40,,3,40,12,,,,KINETIC,16,,0,0.2,6,0.1,0,6,1,15,,700,,,30,,,PD,"kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,13
 Mc large,LIB_superSize,2,,2500,1200,,1625,1625,60,10,18,12,,,HIGH_EXPLOSIVE,0,,0,7.99,4,0.15,0.7,15.7,5,0,,500,40,4,350,,,"STRIKE, CONSERVE_FOR_ANTI_ARMOR","strike16, rocket14, missile_bp, merc, ind",,,,Torpedo,Fast,None,,,,,,,TRUE,16.4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MC howitzer,LIB_Mchowitzer,2,,16000,2000,,6000,6000,15,2,25,3,,,HIGH_EXPLOSIVE,0,,0,4.99,1,,0,0,0,0,,150,500,12,600,,,"DO_NOT_AIM, STRIKE","strike8, missile3, merc, rare_bp, damage_special, damage_soft_flux",,,,Finisher,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s high explosive and EMP damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",10090,,,TRUE,11.94
    Mc_howitzer_payload,LIB_Mc_howitzer_payload,2,,0,800,13000,,13000,20,30,0,1,,,HIGH_EXPLOSIVE,0,,0.1,0.1,1,0.5,,,,,24000,,,,,,,SYSTEM,,,,,,,,,,,,,,,11.95
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Illustrious Plasma Cannon,LIB_illustrious_gauss_cannon,3,,13000,1000,,4200,,600,1,25,,,,ENERGY,4600,,4.63,1.4,,,0,2,,6,,850,,,400,,,SYSTEM,energy20,,,,Anti Shield,,,,,,,,,,6
+Invincible Hand ,LIB_Gold_penta_heavy_machinegun,2,,2400,450,,40,,3,40,16,,,,KINETIC,15,,0,0.2,10,0.1,0,5,1,15,,700,,,30,,,"PD,PD_ALSO","kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,3.85

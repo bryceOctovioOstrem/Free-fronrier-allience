@@ -1,0 +1,81 @@
+{
+  "variantId": "LIB_aquinas_merc",
+  "hullId": "LIB_aquinas",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 44,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "guardian",
+        "WS0004": "guardian",
+        "WS0017": "heavyburst",
+        "WS0018": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0002": "tachyonlance",
+        "WS0005": "tachyonlance",
+        "WS0006": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hil",
+        "WS0008": "hil",
+        "WS0014": "gorgon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "gorgon",
+        "WS0010": "gorgon",
+        "WS0011": "gorgon",
+        "WS0021": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "LIB_LARGE_McMacron"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "taclaser",
+        "WS0020": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

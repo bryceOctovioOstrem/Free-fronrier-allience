@@ -1,0 +1,73 @@
+{
+  "id": "LIB_Gold_penta_heavy_machinegun",
+  "specClass": "projectile",
+  "projectileSpecId": "heavymg_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/LIB_Gold_penta_heavy_machinegun_turret_base.png",
+  "turretGunSprite": "graphics/weapons/LIB_Gold_penta_heavy_machinegun_recoil_base.png",
+  "hardpointSprite": "graphics/weapons/LIB_Gold_penta_heavy_machinegun_turret_hardpoint.png",
+  "hardpointGunSprite": "graphics/weapons/LIB_Gold_penta_heavy_machinegun_recoil_base.png",
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    20,
+    -10,
+    20,
+    -5,
+    20,
+    0,
+    20,
+    5,
+    20,
+    10
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    30.5,
+    -10,
+    30.5,
+    -5,
+    30.5,
+    0,
+    30.5,
+    5,
+    30.5,
+    10
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      120,
+      105,
+      250
+    ]
+  },
+  "fireSoundTwo": "heavy_machinegun_fire"
+}

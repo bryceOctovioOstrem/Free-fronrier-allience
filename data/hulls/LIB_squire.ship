@@ -12,7 +12,8 @@
   "shieldRadius": 100.5,
   "viewOffset": 0,
   "builtInMods": [
-    "escort_package"
+    "escort_package",
+    "coherer"
   ],
   "builtInWeapons": {
     "WS0001": "irautolance",

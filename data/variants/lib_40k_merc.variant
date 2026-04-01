@@ -3,42 +3,43 @@
   "hullId": "lib_40k",
   "displayName": "Merc",
   "goalVariant": true,
-  "fluxCapacitors": 16,
+  "fluxCapacitors": 19,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],
   "hullMods": [
-    "magazines"
+    "magazines",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lrpdlaser",
-        "WS0002": "lrpdlaser",
-        "WS0003": "pdburst",
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
         "WS0004": "pdlaser",
         "WS0005": "pdlaser",
-        "WS0030": "lrpdlaser"
+        "WS0030": "pdlaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "lightneedler",
-        "WS0007": "lightneedler",
-        "WS0008": "lightneedler",
-        "WS0009": "lightneedler",
-        "WS0010": "lightneedler",
-        "WS0011": "lightneedler",
-        "WS0017": "lightneedler",
-        "WS0018": "lightneedler",
-        "WS0019": "lightneedler",
-        "WS0020": "lightneedler",
-        "WS0021": "lightneedler",
-        "WS0022": "lightneedler"
+        "WS0006": "railgun",
+        "WS0007": "railgun",
+        "WS0008": "railgun",
+        "WS0009": "railgun",
+        "WS0010": "railgun",
+        "WS0011": "railgun",
+        "WS0017": "railgun",
+        "WS0018": "railgun",
+        "WS0019": "railgun",
+        "WS0020": "railgun",
+        "WS0021": "railgun",
+        "WS0022": "railgun"
       }
     },
     {

@@ -3,7 +3,7 @@
   "hullId": "LIB_tolkien",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 14,
+  "fluxCapacitors": 10,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],
