@@ -1,0 +1,70 @@
+{
+  "variantId": "lib_saturn_merc",
+  "hullId": "lib_saturn",
+  "displayName": "merc",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 2,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "heavyburst",
+        "WS0009": "heavyburst",
+        "WS0010": "heavyburst",
+        "WS0011": "heavyburst",
+        "WS0012": "guardian",
+        "WS0013": "guardian",
+        "WS0021": "heavyburst",
+        "WS0023": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mark9",
+        "WS0005": "mark9",
+        "WS0008": "heavyac",
+        "WS0017": "mark9",
+        "WS0020": "mark9",
+        "WS0022": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_illustrious_gauss_cannon",
+        "WS0004": "LIB_illustrious_gauss_cannon",
+        "WS0018": "LIB_illustrious_gauss_cannon",
+        "WS0019": "LIB_illustrious_gauss_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "harpoonpod",
+        "WS0016": "harpoonpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

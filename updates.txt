@@ -1,1 +1,0 @@
-chganged lib_40k ship sprite and made it a phase ship.
