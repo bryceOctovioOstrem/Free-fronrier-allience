@@ -4,11 +4,11 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/hulls/bailyn.png",
   "style": "HIGH_TECH",
-  "height": 256,
+  "height": 270,
   "width": 190,
-  "center": [95, 128],
-  "collisionRadius": 140.5,
-  "shieldCenter": [0, 0],
+  "center": [95, 133],
+  "collisionRadius": 144.5,
+  "shieldCenter": [0, -0],
   "shieldRadius": 149,
   "viewOffset": 0,
   "builtInMods": [
@@ -24,7 +24,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -0,
-      "locations": [121, 0]
+      "locations": [130, -0]
     },
     {
       "id": "WS0001",
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 38.5,
-      "locations": [100.5, 60.5]
+      "locations": [109, 60]
     },
     {
       "id": "WS0003",
@@ -42,7 +42,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -38.5,
-      "locations": [102, -61]
+      "locations": [109, -60]
     },
     {
       "id": "WS0004",
@@ -51,7 +51,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [52, 87]
+      "locations": [59, 87]
     },
     {
       "id": "WS0005",
@@ -60,7 +60,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -90,
-      "locations": [52, -88]
+      "locations": [59, -88]
     },
     {
       "id": "WS0006",
@@ -69,7 +69,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": -119.5,
-      "locations": [16, -76]
+      "locations": [25, -74]
     },
     {
       "id": "WS0007",
@@ -78,7 +78,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": 119.5,
-      "locations": [17, 77]
+      "locations": [24.5, 74.5]
     },
     {
       "id": "WS0008",
@@ -87,7 +87,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-26, -0]
+      "locations": [-20, -0]
     },
     {
       "id": "WS0009",
@@ -96,55 +96,55 @@
       "mount": "TURRET",
       "arc": 320,
       "angle": -0,
-      "locations": [60, -0]
+      "locations": [66.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-125, 50.5],
+      "location": [-133.5, 51.5],
       "length": 43.5,
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "HIGH_TECH"
+      "style": "MIDLINE"
     },
     {
-      "location": [-125, -51],
+      "location": [-133.5, -51.5],
       "length": 43.5,
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "HIGH_TECH"
+      "style": "MIDLINE"
     }
   ],
   "bounds": [
-    125.5, -0,
-    105, 64,
-    52.5, 94,
-    13, 80.5,
-    -21, 31.5,
-    -76.5, 18.5,
-    -91, 42,
-    -48, 42,
-    -27, 50.5,
-    -44.5, 59.5,
-    -117, 59.5,
-    -117, 42,
-    -107, 22,
-    -112.5, 3.5,
-    -121.5, 0.5,
-    -112, -6,
-    -105, -19.5,
-    -118.5, -40.5,
-    -119, -61,
-    -45, -60,
-    -27.5, -51,
-    -51, -41.5,
-    -90.5, -41.5,
-    -77.5, -19.5,
-    -22.5, -30.5,
-    12, -80,
-    52, -95,
-    106, -64.5
+    120.5, -0,
+    100, 64,
+    47.5, 94,
+    8, 80.5,
+    -26, 31.5,
+    -81.5, 18.5,
+    -96, 42,
+    -53, 42,
+    -32, 50.5,
+    -49.5, 59.5,
+    -122, 59.5,
+    -122, 42,
+    -112, 22,
+    -117.5, 3.5,
+    -126.5, 0.5,
+    -117, -6,
+    -110, -19.5,
+    -123.5, -40.5,
+    -124, -61,
+    -50, -60,
+    -32.5, -51,
+    -56, -41.5,
+    -95.5, -41.5,
+    -82.5, -19.5,
+    -27.5, -30.5,
+    7, -80,
+    47, -95,
+    101, -64.5
   ]
 }

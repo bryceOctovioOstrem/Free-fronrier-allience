@@ -3,7 +3,7 @@
   "hullId": "lib_saturn",
   "displayName": "merc",
   "goalVariant": true,
-  "fluxCapacitors": 50,
+  "fluxCapacitors": 42,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],
@@ -17,52 +17,61 @@
       "weapons": {
         "WS0002": "vulcan",
         "WS0006": "vulcan",
-        "WS0007": "heavyburst",
         "WS0009": "heavyburst",
-        "WS0010": "heavyburst",
-        "WS0011": "heavyburst",
         "WS0012": "guardian",
         "WS0013": "guardian",
-        "WS0021": "heavyburst",
-        "WS0023": "heavyburst"
+        "WS0014": "squall",
+        "WS0015": "gazerpod",
+        "WS0016": "gazerpod",
+        "WS0021": "heavyburst"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "mark9",
-        "WS0005": "mark9",
-        "WS0008": "heavyac",
-        "WS0017": "mark9",
-        "WS0020": "mark9",
-        "WS0022": "heavyac"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0001": "LIB_illustrious_gauss_cannon",
         "WS0003": "LIB_illustrious_gauss_cannon",
         "WS0004": "LIB_illustrious_gauss_cannon",
+        "WS0005": "LIB_illustrious_gauss_cannon",
+        "WS0017": "LIB_illustrious_gauss_cannon",
         "WS0018": "LIB_illustrious_gauss_cannon",
-        "WS0019": "LIB_illustrious_gauss_cannon"
+        "WS0019": "LIB_illustrious_gauss_cannon",
+        "WS0020": "LIB_illustrious_gauss_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gravitonbeam",
+        "WS0008": "mark9",
+        "WS0022": "mark9",
+        "WS0023": "gravitonbeam"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0014": "autopulse"
+        "WS0010": "squall",
+        "WS0011": "squall"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0015": "harpoonpod",
-        "WS0016": "harpoonpod"
-      }
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

@@ -3,7 +3,7 @@
   "hullId": "LIB_olorin",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 47,
+  "fluxCapacitors": 50,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],

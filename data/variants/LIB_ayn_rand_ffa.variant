@@ -3,7 +3,7 @@
   "hullId": "LIB_ayn_rand",
   "displayName": "ffa",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 27,
   "fluxVents": 50,
   "quality": 2,
   "permaMods": [],

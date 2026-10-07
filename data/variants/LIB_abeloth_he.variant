@@ -3,7 +3,7 @@
   "hullId": "LIB_abeloth",
   "displayName": "high_explosive",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 8,
   "fluxVents": 10,
   "quality": 2,
   "permaMods": [],

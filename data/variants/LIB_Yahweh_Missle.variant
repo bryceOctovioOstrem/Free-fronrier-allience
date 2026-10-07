@@ -3,7 +3,7 @@
   "hullId": "LIB_Yahweh",
   "displayName": "Missle",
   "goalVariant": true,
-  "fluxCapacitors": 14,
+  "fluxCapacitors": 11,
   "fluxVents": 50,
   "quality": 3,
   "permaMods": [],
@@ -17,8 +17,11 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "gravitonbeam",
+        "WS0005": "tachyonlance",
         "WS0009": "gravitonbeam",
-        "WS0013": "gravitonbeam"
+        "WS0013": "gravitonbeam",
+        "WS0015": "flak",
+        "WS0017": "flak"
       }
     },
     {
@@ -32,20 +35,16 @@
       "weapons": {
         "WS0003": "guardian",
         "WS0006": "heavyburst",
-        "WS0014": "heavyburst",
-        "WS0015": "lrpdlaser",
-        "WS0017": "lrpdlaser"
+        "WS0014": "heavyburst"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "dragonpod",
         "WS0007": "dragonpod",
         "WS0008": "gorgonpod",
         "WS0010": "dragonpod",
-        "WS0011": "dragonpod",
         "WS0016": "gorgonpod"
       }
     },
@@ -64,7 +63,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0002": "hil",
-        "WS0004": "tachyonlance",
         "WS0012": "tachyonlance"
       }
     }

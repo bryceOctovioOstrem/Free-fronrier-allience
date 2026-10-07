@@ -3,7 +3,7 @@
   "hullId": "lib_saturn",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 39,
+  "fluxCapacitors": 31,
   "fluxVents": 50,
   "quality": 5,
   "permaMods": [],
@@ -15,30 +15,26 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "LIB_illustrious_gauss_cannon",
-        "WS0004": "LIB_illustrious_gauss_cannon",
-        "WS0012": "LIB_triple_laser_cannon_weapon",
-        "WS0013": "LIB_triple_laser_cannon_weapon",
-        "WS0014": "LIB_triple_laser_cannon_weapon",
-        "WS0017": "LIB_triple_laser_cannon_weapon",
-        "WS0018": "LIB_illustrious_gauss_cannon",
-        "WS0019": "LIB_illustrious_gauss_cannon"
+        "WS0002": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0009": "LIB_gold_triple_machine_gun",
+        "WS0012": "guardian",
+        "WS0013": "guardian",
+        "WS0023": "LIB_gold_triple_machine_gun"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "LIB_Gold_penta_heavy_machinegun",
-        "WS0002": "taclaser",
-        "WS0005": "LIB_triple_laser_cannon_weapon",
-        "WS0006": "taclaser",
-        "WS0008": "LIB_duel_laser_cannon_weapon",
-        "WS0010": "LIB_duel_laser_cannon_weapon",
-        "WS0011": "LIB_duel_laser_cannon_weapon",
-        "WS0015": "LIB_duel_laser_cannon_weapon",
-        "WS0016": "LIB_duel_laser_cannon_weapon",
-        "WS0022": "LIB_duel_laser_cannon_weapon"
+        "WS0001": "LIB_illustrious_gauss_cannon",
+        "WS0003": "LIB_illustrious_gauss_cannon",
+        "WS0004": "LIB_illustrious_gauss_cannon",
+        "WS0005": "LIB_illustrious_gauss_cannon",
+        "WS0017": "LIB_illustrious_gauss_cannon",
+        "WS0018": "LIB_illustrious_gauss_cannon",
+        "WS0019": "LIB_illustrious_gauss_cannon",
+        "WS0020": "LIB_illustrious_gauss_cannon"
       }
     },
     {
@@ -46,11 +42,35 @@
       "mode": "LINKED",
       "weapons": {
         "WS0007": "LIB_gold_triple_machine_gun",
-        "WS0009": "LIB_gold_triple_machine_gun",
-        "WS0020": "LIB_Gold_penta_heavy_machinegun",
+        "WS0008": "LIB_triple_laser_cannon_weapon",
+        "WS0010": "LIB_triple_laser_cannon_weapon",
+        "WS0011": "LIB_triple_laser_cannon_weapon",
+        "WS0014": "LIB_triple_laser_cannon_weapon",
+        "WS0015": "LIB_duel_laser_cannon_weapon",
+        "WS0016": "LIB_duel_laser_cannon_weapon",
         "WS0021": "LIB_gold_triple_machine_gun",
-        "WS0023": "LIB_gold_triple_machine_gun"
+        "WS0022": "LIB_triple_laser_cannon_weapon"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

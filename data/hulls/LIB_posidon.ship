@@ -4,7 +4,7 @@
   "hullSize": "CRUISER",
   "spriteName": "graphics/hulls/LIB_posidon.png",
   "style": "HIGH_TECH",
-  "height": 194,
+  "height": 163,
   "width": 290,
   "center": [145, 97],
   "collisionRadius": 145,
@@ -19,7 +19,7 @@
       "mount": "TURRET",
       "arc": 187,
       "angle": 38.5,
-      "locations": [46, 36]
+      "locations": [22, 34.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "TURRET",
       "arc": 187,
       "angle": -38.5,
-      "locations": [46, -36]
+      "locations": [22, -34.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "TURRET",
       "arc": 215,
       "angle": 90,
-      "locations": [0, 95]
+      "locations": [-15, 94]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "TURRET",
       "arc": 215,
       "angle": -90,
-      "locations": [0, -95]
+      "locations": [-15, -94]
     },
     {
       "id": "WS0005",
@@ -55,7 +55,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 90,
-      "locations": [0, 126]
+      "locations": [-15, 126]
     },
     {
       "id": "WS0006",
@@ -64,7 +64,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": -90,
-      "locations": [0, -126]
+      "locations": [-15, -126]
     },
     {
       "id": "WS0007",
@@ -73,7 +73,7 @@
       "mount": "TURRET",
       "arc": 187,
       "angle": 149,
-      "locations": [-45, 37]
+      "locations": [-52.5, 35.5]
     },
     {
       "id": "WS0008",
@@ -82,7 +82,7 @@
       "mount": "TURRET",
       "arc": 189,
       "angle": -145,
-      "locations": [-45, -37]
+      "locations": [-52.5, -35]
     },
     {
       "id": "WS0009",
@@ -91,7 +91,7 @@
       "mount": "TURRET",
       "arc": 230,
       "angle": 0,
-      "locations": [51, -0],
+      "locations": [27, -0],
       "renderOrderMod": 100
     },
     {
@@ -101,7 +101,7 @@
       "mount": "TURRET",
       "arc": 200,
       "angle": 90,
-      "locations": [0, 59],
+      "locations": [-15, 57],
       "renderOrderMod": 100
     },
     {
@@ -111,7 +111,7 @@
       "mount": "TURRET",
       "arc": 200,
       "angle": -90,
-      "locations": [0, -59],
+      "locations": [-15, -57],
       "renderOrderMod": 100
     },
     {
@@ -121,7 +121,7 @@
       "mount": "TURRET",
       "arc": 230,
       "angle": 180,
-      "locations": [-49, -0],
+      "locations": [-57.5, -0],
       "renderOrderMod": 100
     },
     {
@@ -131,18 +131,18 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [0, -0],
+      "locations": [-16, -0],
       "renderOrderMod": 200
     }
   ],
   "engineSlots": [
     {
-      "location": [-71, 42.5],
-      "length": 98.044678,
-      "width": 39.673199,
+      "location": [-78, 45.5],
+      "length": 98.040001,
+      "width": 39.669998,
       "angle": 156,
-      "contrailSize": 39.673199,
-      "style": "COBRA_BOMBER"
+      "contrailSize": 39.669998,
+      "style": "MIDLINE"
     },
     {
       "location": [-87, 13],
@@ -150,23 +150,23 @@
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "HIGH_TECH"
+      "style": "MIDLINE"
     },
     {
-      "location": [-87, -13],
+      "location": [-87, -14],
       "length": 36,
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "HIGH_TECH"
+      "style": "MIDLINE"
     },
     {
-      "location": [-70, -43.5],
+      "location": [-78, -46.5],
       "length": 98.040001,
       "width": 39.669998,
       "angle": -156,
       "contrailSize": 39.669998,
-      "style": "COBRA_BOMBER"
+      "style": "MIDLINE"
     }
   ],
   "bounds": [

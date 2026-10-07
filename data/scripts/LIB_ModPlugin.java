@@ -321,10 +321,10 @@ private void tlhabGen(){
 
     market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
-    planet.setFaction("FFA");
+    planet.setFaction(Factions.INDEPENDENT);
 
     market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
-    market.setFactionId("FFA");
+    market.setFactionId(Factions.INDEPENDENT);
     market.addIndustry(Industries.POPULATION);
     market.addCondition(Conditions.POPULATION_5);
     market.setSize(5);
@@ -335,10 +335,10 @@ private void tlhabGen(){
     market.addCondition(Conditions.POLLUTION);
      market.addCondition(Conditions.VOLATILES_DIFFUSE);
     market.addCondition(Conditions.FRONTIER);
-    market.addCondition(Conditions.DISSIDENT);
+    //market.addCondition(Conditions.DISSIDENT);
     market.addCondition(Conditions.RARE_ORE_SPARSE);
     market.addCondition(Conditions.ORE_SPARSE);
-    market.addCondition(Conditions.EXTREME_WEATHER);
+    //market.addCondition(Conditions.EXTREME_WEATHER);
     market.addCondition(Conditions.VICE_DEMAND);
 
     // industries
