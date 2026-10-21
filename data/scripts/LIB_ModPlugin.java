@@ -321,10 +321,10 @@ private void tlhabGen(){
 
     market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
-    planet.setFaction(Factions.INDEPENDENT);
+    planet.setFaction(Factions.PERSEAN);
 
     market.setPlanetConditionMarketOnly(false); //We are going to turn this into a proper colony and not just a "surface only".
-    market.setFactionId(Factions.INDEPENDENT);
+    market.setFactionId(Factions.PERSEAN);
     market.addIndustry(Industries.POPULATION);
     market.addCondition(Conditions.POPULATION_5);
     market.setSize(5);

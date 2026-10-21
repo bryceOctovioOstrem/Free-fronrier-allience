@@ -1,0 +1,39 @@
+{
+  "variantId": "lib_station_chaotic_variant",
+  "hullId": "lib_station_chaotic",
+  "displayName": "FFA",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "LIB_triple_laser_cannon_weapon",
+        "WS0002": "LIB_triple_laser_cannon_weapon",
+        "WS0003": "LIB_LARGE_McMacron",
+        "WS0004": "LIB_mc_macron_medium",
+        "WS0005": "LIB_duel_laser_cannon_weapon",
+        "WS0006": "LIB_Mchowitzer",
+        "WS0007": "pdlaser",
+        "WS0008": "LIB_gold_triple_machine_gun",
+        "WS0009": "LIB_Mchowitzer",
+        "WS0010": "LIB_Mchowitzer",
+        "WS0011": "gazer",
+        "WS0012": "gorgonpod",
+        "WS0013": "pdlaser",
+        "WS0014": "LIB_macron_small",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser",
+        "WS0017": "gazer",
+        "WS0018": "gazer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

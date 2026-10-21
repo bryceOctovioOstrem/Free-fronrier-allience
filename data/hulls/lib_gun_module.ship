@@ -1,0 +1,108 @@
+{
+  "hullName": "lib_gun_module",
+  "hullId": "lib_gun_module",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/hulls/lib_station_gun_base.png",
+  "style": "LOW_TECH",
+  "height": 279,
+  "width": 203,
+  "center": [101.5, 139.5],
+  "collisionRadius": 149,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 156,
+  "viewOffset": 0,
+  "builtInMods": [
+    "armoredweapons",
+    "supercomputer"
+  ],
+  "builtInWeapons": {
+    "WS0007": "lib_bigIron"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 65,
+      "locations": [120.5, 48.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -65,
+      "locations": [120.5, -48.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 66,
+      "locations": [54, 59],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -66,
+      "locations": [54, -59]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 78,
+      "locations": [-21.5, 67.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -78.5,
+      "locations": [-21.5, -67.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0.5,
+      "locations": [-20, 0.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -135, -38,
+    -62, -72,
+    -21, -100.5,
+    17.5, -70,
+    35.5, -68,
+    54, -77.5,
+    82, -58.5,
+    104, -53.5,
+    137, -55,
+    137, 55,
+    104, 53.5,
+    82, 58.5,
+    54, 77.5,
+    35.5, 68,
+    17.5, 70,
+    -21, 100.5,
+    -62, 72,
+    -135, 38
+  ]
+}

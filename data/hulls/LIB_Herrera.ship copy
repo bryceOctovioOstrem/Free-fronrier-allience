@@ -1,0 +1,50 @@
+{
+  "hullName": "LIB_Herrera",
+  "hullId": "LIB_Herrera",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/hulls/LIB_fighter_gold_machinegun.png",
+  "style": "LOW_TECH",
+  "height": 51,
+  "width": 49,
+  "center": [24.5, 25.5],
+  "collisionRadius": 0,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "LIB_gold_machine_gun"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14.5, 8.5],
+      "length": 22,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-14.5, -8.5],
+      "length": 22,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": []
+}

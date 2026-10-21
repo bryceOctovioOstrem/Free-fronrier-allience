@@ -1,0 +1,46 @@
+{
+  "variantId": "lib_gun_module_variant",
+  "hullId": "lib_gun_module",
+  "displayName": "New Variant",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "LIB_duel_laser_cannon_weapon",
+        "WS0004": "LIB_duel_laser_cannon_weapon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lib_bigIron"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
