@@ -13,24 +13,24 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "pdlaser",
-        "WS0002": "pdlaser"
+        "WS0001": "pdburst",
+        "WS0002": "pdburst"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "LIB_duel_laser_cannon_weapon",
-        "WS0004": "LIB_duel_laser_cannon_weapon"
+        "WS0003": "heavyblaster",
+        "WS0004": "heavyblaster"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "mark9",
-        "WS0006": "mark9"
+        "WS0005": "hellbore",
+        "WS0006": "hellbore"
       }
     },
     {

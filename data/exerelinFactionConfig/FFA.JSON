@@ -2,7 +2,7 @@
     "playableFaction":true,
     "corvusCompatible":false,
     
-    "rebelFleetSuffix":"socialists",
+    "rebelFleetSuffix":"Socialists",
     
     "directoryUseShortName":true,
     
@@ -59,10 +59,15 @@
     ],
     "startShipsCarrierLarge":[["LIB_executive_variant", "LIB_squire_variant", "LIB_competitor_variant"]],
     "startShipsSuper":[["LIB_Yahweh_FFA"]],
-    
+  
     "startSpecialItems":[
-        [["PA_package","Mc_package", "MM_package",, "SS_package", ""]],
-    ],
+    [
+        ["PA_package", ""],
+        ["Mc_package", ""],
+        ["MM_package", ""],
+        ["SS_package", ""]
+    ]
+],
     
     "defenceStations":[
         {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
@@ -82,6 +87,7 @@
     ],
 	"invasionStrengthBonusDefend":3,
 	"invasionPointMult":.8,
+  "morality":"evil",
     	"invasionFleetSizeMod":.7,
 	"responseFleetSizeMod": 2,
 }

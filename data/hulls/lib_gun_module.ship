@@ -13,7 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "armoredweapons",
-    "supercomputer"
+    "supercomputer",
+    "shared_flux_sink",
+    "always_detaches"
   ],
   "builtInWeapons": {
     "WS0007": "lib_bigIron"

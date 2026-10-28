@@ -4,20 +4,28 @@
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/hulls/lib_chaotic_top_station.png",
   "style": "MIDLINE",
-  "height": 342,
+  "height": 341,
   "width": 344,
   "center": [172, 171],
   "collisionRadius": 186.5,
   "shieldCenter": [0, 0],
   "shieldRadius": 199,
   "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "shared_flux_sink",
+    "distributed_fire_control"
+  ],
+  "builtInWeapons": {
+    "WS0001": "LIB_illustrious_gauss_cannon"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "LARGE",
-      "type": "HYBRID",
+      "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 240,
+      "arc": 200,
       "angle": 90,
       "locations": [7, 113]
     },
@@ -36,7 +44,7 @@
       "size": "LARGE",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 210,
+      "arc": 200,
       "angle": -90,
       "locations": [6.5, -83],
       "renderOrderMod": 200
@@ -56,9 +64,9 @@
       "size": "MEDIUM",
       "type": "SYNERGY",
       "mount": "TURRET",
-      "arc": 170,
+      "arc": 150,
       "angle": -50,
-      "locations": [78, -73]
+      "locations": [77, -73.5]
     },
     {
       "id": "WS0006",
@@ -178,6 +186,24 @@
       "arc": 1,
       "angle": -144,
       "locations": [-57.5, -35.5]
+    },
+    {
+      "id": "WS0019",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 1,
+      "angle": -90,
+      "locations": [118.5, -33.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -64,
+      "locations": [41.5, -90]
     }
   ],
   "engineSlots": [],

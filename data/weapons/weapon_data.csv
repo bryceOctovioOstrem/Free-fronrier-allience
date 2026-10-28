@@ -26,4 +26,4 @@ Invincible Hand ,LIB_Gold_penta_heavy_machinegun,2,,1500,450,,40,,3,40,15,,,,KIN
 Heavy Machine Gun,#heavymg,2,,1200,450,,40,,3,40,10,,,,KINETIC,15,,0,0.2,4,0.1,0,5,1,15,,700,,,30,,,"PD,PD_ALSO","kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,3.85
 NAP enforcher,#LIB_gold_triple_machine_gun,2,,1300,400,,40,,3,40,12,,,,KINETIC,16,,0,0.2,6,0.1,0,5,1,15,,700,,,30,,,"PD,PD_ALSO","kinetic11, pd10, SR, midline_bp, merc, ind",,,,Point Defense,,,,,,,,,,13
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Big Iron,lib_bigIron,0,,3000,900,,4000,,1200,0,16,,,,HIGH_EXPLOSIVE,750,,0,3,1,,0,5,2,5,,1200,,,400,,,,"he18, lowtech_bp, merc, ind, no_sell, no_drop, no_drop_salvage",,,,Anti Armor,,,,,,,,,,14
+Winchester,lib_bigIron,0,,3000,1200,,8000,8000,2400,0,16,,,,HIGH_EXPLOSIVE,0,,0,3,1,,0,5,2,5,,1200,,,400,,," FIRE_WHEN_INEFFICIENT,STRIKE","he18,no_sell, no_drop, no_drop_salvage",,,,Strike,,,,,,,,,,14

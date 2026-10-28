@@ -49,14 +49,14 @@
   ],
   "modules": [
     {
-      "WS0003": "lib_disk_armor_variant"
-    },
-    {
       "WS0002": "lib_station_chaotic_variant"
     },
     {
       "WS0001": "lib_gun_module_variant"
-    }
+    },
+    {"WS0004": "lib_station_armor_variant"},
+    {"WS0005": "lib_station_armor_variant"},
+    {"WS0003": "lib_disk_armor_variant"}
   ],
   "wings": []
 }

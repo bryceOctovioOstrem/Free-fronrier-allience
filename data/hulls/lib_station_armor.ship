@@ -1,0 +1,40 @@
+{
+  "hullName": "lib_station_armor",
+  "hullId": "lib_station_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/hulls/LIB_station_armor.png",
+  "style": "MIDLINE",
+  "height": 245,
+  "width": 300,
+  "center": [150, 122.5],
+  "collisionRadius": 151,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 156,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -97, -28,
+    6, -32,
+    -1.5, -116.5,
+    -32.5, -127.5,
+    3, -147,
+    36, -139.5,
+    81.5, -68.5,
+    101.5, -17.5,
+    121, -0,
+    101.5, 17.5,
+    81.5, 68.5,
+    36, 139.5,
+    3, 147,
+    -32.5, 127.5,
+    -1.5, 116.5,
+    6, 32,
+    -97, 28,
+    -121, -0
+  ]
+}

@@ -18,7 +18,8 @@
     "shared_flux_sink",
     "vastbulk",
     "supercomputer",
-    "ecm"
+    "ecm",
+    "stealth_minefield"
   ],
   "weaponSlots": [
     {
@@ -28,7 +29,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 180,
-      "locations": [-354, 1.5]
+      "locations": [-343.5, 0.5]
     },
     {
       "id": "WS0002",
@@ -37,7 +38,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 180,
-      "locations": [347, 32]
+      "locations": [351, 32]
     },
     {
       "id": "WS0003",
@@ -46,7 +47,26 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 180,
-      "locations": [-12, 0]
+      "locations": [-12, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-9, 228]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-9, -228]
     }
   ],
   "engineSlots": [],
