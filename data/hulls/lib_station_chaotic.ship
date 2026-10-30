@@ -14,7 +14,8 @@
   "builtInMods": [
     "always_detaches",
     "shared_flux_sink",
-    "distributed_fire_control"
+    "distributed_fire_control",
+    "ablative_armor"
   ],
   "builtInWeapons": {
     "WS0001": "LIB_illustrious_gauss_cannon"

@@ -3,7 +3,7 @@
   "hullId": "lib_station_chaotic",
   "displayName": "FFA",
   "goalVariant": true,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 12,
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
@@ -48,15 +48,14 @@
         "WS0012": "gazerpod",
         "WS0017": "gazer",
         "WS0018": "gazer",
-        "WS0019": "gazer"
+        "WS0019": "gazer",
+        "WS0020": "LIB_macron_small"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0020": "LIB_macron_small"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

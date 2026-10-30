@@ -12,7 +12,8 @@
   "shieldRadius": 168.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0007": "autopulse",

@@ -15,7 +15,8 @@
     "advancedcore",
     "ablative_armor",
     "distributed_fire_control",
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0022": "hephag"

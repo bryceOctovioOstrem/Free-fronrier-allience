@@ -5,14 +5,15 @@
   "spriteName": "graphics/hulls/lib_Maahes.png",
   "style": "LOW_TECH",
   "height": 252,
-  "width": 166,
+  "width": 170,
   "center": [83, 126],
   "collisionRadius": 126,
   "shieldCenter": [0, 0],
   "shieldRadius": 139.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "weaponSlots": [
     {

@@ -12,7 +12,8 @@
   "shieldRadius": 128.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0008": "irautolance",

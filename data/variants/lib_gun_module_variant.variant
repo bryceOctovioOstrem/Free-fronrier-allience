@@ -21,16 +21,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "heavyblaster",
-        "WS0004": "heavyblaster"
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "hellbore",
-        "WS0006": "hellbore"
+        "WS0005": "LIB_LARGE_McMacron",
+        "WS0006": "LIB_LARGE_McMacron"
       }
     },
     {

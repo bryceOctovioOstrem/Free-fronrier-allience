@@ -12,7 +12,8 @@
   "shieldRadius": 132.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0009": "gazerpod"
