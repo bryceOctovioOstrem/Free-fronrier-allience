@@ -12,7 +12,6 @@
     "maxRelationships":{"luddic_path":-0.4,"hegemony": -0.35},
     "diplomacyPositiveChance":{ "luddic_church":0.8, "luddic_path":0.4,"hegemony":0.5,"persean":1.4,"tritachyon": 1.2},
     "diplomacyNegativeChance":{ "luddic_church":1.2, "luddic_path":2.0,"hegemony":3.0},
-    "morality":"amoral",
     
     "alignments":{
         "corporate":1,
@@ -88,6 +87,6 @@
 	"invasionStrengthBonusDefend":3,
 	"invasionPointMult":.8,
   "morality":"evil",
-    	"invasionFleetSizeMod":.7,
+  "invasionFleetSizeMod":.7,
 	"responseFleetSizeMod": 2,
 }
