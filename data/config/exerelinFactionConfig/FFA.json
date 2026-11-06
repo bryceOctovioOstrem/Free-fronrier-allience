@@ -2,7 +2,7 @@
     "playableFaction":true,
     "corvusCompatible":false,
     
-    "rebelFleetSuffix":"socialists",
+    "rebelFleetSuffix":"Socialists",
     
     "directoryUseShortName":true,
     
@@ -12,7 +12,6 @@
     "maxRelationships":{"luddic_path":-0.4,"hegemony": -0.35},
     "diplomacyPositiveChance":{ "luddic_church":0.8, "luddic_path":0.4,"hegemony":0.5,"persean":1.4,"tritachyon": 1.2},
     "diplomacyNegativeChance":{ "luddic_church":1.2, "luddic_path":2.0,"hegemony":3.0},
-    "morality":"amoral",
     
     "alignments":{
         "corporate":1,
@@ -59,10 +58,15 @@
     ],
     "startShipsCarrierLarge":[["LIB_executive_variant", "LIB_squire_variant", "LIB_competitor_variant"]],
     "startShipsSuper":[["LIB_Yahweh_FFA"]],
-    
+  
     "startSpecialItems":[
-        [["PA_package","Mc_package", "MM_package",, "SS_package", ""]],
-    ],
+    [
+        ["PA_package", ""],
+        ["Mc_package", ""],
+        ["MM_package", ""],
+        ["SS_package", ""]
+    ]
+],
     
     "defenceStations":[
         {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
@@ -82,6 +86,7 @@
     ],
 	"invasionStrengthBonusDefend":3,
 	"invasionPointMult":.8,
-    	"invasionFleetSizeMod":.7,
+  "morality":"evil",
+  "invasionFleetSizeMod":.7,
 	"responseFleetSizeMod": 2,
 }

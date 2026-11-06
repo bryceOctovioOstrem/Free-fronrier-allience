@@ -15,7 +15,8 @@
     "advancedshieldemitter",
     "advancedcore",
     "ecm",
-    "shield_always_on"
+    "shield_always_on",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0001": "LIB_illustrious_gauss_cannon",

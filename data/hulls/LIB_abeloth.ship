@@ -5,7 +5,7 @@
   "spriteName": "graphics/hulls/LIB_Abeloth.png",
   "style": "LOW_TECH",
   "height": 187,
-  "width": 90,
+  "width": 89,
   "center": [45, 93.5],
   "collisionRadius": 93.5,
   "shieldCenter": [0, 0],

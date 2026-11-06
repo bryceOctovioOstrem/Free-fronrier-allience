@@ -12,7 +12,8 @@
   "shieldRadius": 152.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0001": "LIB_freedom_zapper",

@@ -12,7 +12,8 @@
   "shieldRadius": 76,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0002": "heavyblaster",

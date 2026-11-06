@@ -1,4 +1,7 @@
 
 reworked saturn and yaeweh class
 new art deco art style for mythic manufactoring ships
-changed thelb to independent
+changed thelb to indepent
+fixed nexerlin file to allow selection as start faction
+fixed blueprints
+added station line

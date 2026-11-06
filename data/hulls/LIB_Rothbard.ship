@@ -12,7 +12,8 @@
   "shieldRadius": 124,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "coherer",
+    "automated"
   ],
   "builtInWeapons": {
     "WS0012": "LIB_MC_nukes_single",
