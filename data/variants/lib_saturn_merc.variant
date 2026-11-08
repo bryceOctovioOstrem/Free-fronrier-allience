@@ -21,8 +21,6 @@
         "WS0012": "guardian",
         "WS0013": "guardian",
         "WS0014": "squall",
-        "WS0015": "gazerpod",
-        "WS0016": "gazerpod",
         "WS0021": "heavyburst"
       }
     },
@@ -61,7 +59,10 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0015": "gazerpod",
+        "WS0016": "gazerpod"
+      }
     },
     {
       "autofire": false,

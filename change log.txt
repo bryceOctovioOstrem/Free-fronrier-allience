@@ -5,3 +5,4 @@ changed thelb to indepent
 fixed nexerlin file to allow selection as start faction
 fixed blueprints
 added station line
+rewored most descriptions

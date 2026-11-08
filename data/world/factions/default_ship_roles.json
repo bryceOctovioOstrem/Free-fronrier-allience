@@ -59,6 +59,8 @@
 		"LIB_Yahweh_FFA":1,
 		"LIB_locke_merc":1,
 		"LIB_locke_FFA":1,
+		"lib_saturn_merc":1,
+		"lib_saturn_ffa":1,
 		"fallback":{"combatLarge":.1},
 	},
 	
@@ -92,6 +94,8 @@
 	"combatFreighterLarge":{
 		"lib_40k_merc":2,
 		"lib_40k_FFA":1,
+		"LIB_Yahweh_Missle":.5,
+		"LIB_Yahweh_FFA":.5,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	

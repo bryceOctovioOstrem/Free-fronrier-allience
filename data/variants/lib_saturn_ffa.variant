@@ -17,9 +17,11 @@
       "weapons": {
         "WS0002": "pdlaser",
         "WS0006": "pdlaser",
+        "WS0007": "LIB_gold_triple_machine_gun",
         "WS0009": "LIB_gold_triple_machine_gun",
         "WS0012": "guardian",
         "WS0013": "guardian",
+        "WS0021": "LIB_gold_triple_machine_gun",
         "WS0023": "LIB_gold_triple_machine_gun"
       }
     },
@@ -41,14 +43,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "LIB_gold_triple_machine_gun",
         "WS0008": "LIB_triple_laser_cannon_weapon",
         "WS0010": "LIB_triple_laser_cannon_weapon",
         "WS0011": "LIB_triple_laser_cannon_weapon",
         "WS0014": "LIB_triple_laser_cannon_weapon",
         "WS0015": "LIB_duel_laser_cannon_weapon",
         "WS0016": "LIB_duel_laser_cannon_weapon",
-        "WS0021": "LIB_gold_triple_machine_gun",
         "WS0022": "LIB_triple_laser_cannon_weapon"
       }
     },

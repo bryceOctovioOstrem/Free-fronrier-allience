@@ -12,7 +12,8 @@
   "shieldRadius": 128.5,
   "viewOffset": 0,
   "builtInMods": [
-    "coherer"
+    "targetingunit",
+    "operations_center"
   ],
   "builtInWeapons": {
     "WS0008": "irautolance",
@@ -89,7 +90,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [82, 22]
+      "locations": [83, 22]
     },
     {
       "id": "WS0009",
@@ -98,7 +99,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [82, -22]
+      "locations": [83, -22]
     },
     {
       "id": "WS0010",
